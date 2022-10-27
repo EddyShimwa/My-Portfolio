@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: -1px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 604px;
+  top: 92px;
+  background: url("images/header-shapes\ mobile@2x.png");
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#text1 {
+  height: 150px;
+  font-weight: 300;
+  top: 114px;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.container p {
+  height: 146px;
+  width: 327px;
+  left: 24px;
+  top: 276px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.container h4 {
+  height: 24px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+h4:hover {
+  color: #384299;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 2px;
+}
+
+li {
+  margin: 5px;
+}
