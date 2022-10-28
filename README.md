@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# Portforio
 
-> A simple Portfolio page
+> A simple portforio page
 
 
 ## Built With

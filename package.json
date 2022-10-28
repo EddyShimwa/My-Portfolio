@@ -1,0 +1,23 @@
+{
+  "name": "hello-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddyShimwa/Hello-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EddyShimwa/Hello-/issues"
+  },
+  "homepage": "https://github.com/EddyShimwa/Hello-#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
+}
