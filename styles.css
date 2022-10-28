@@ -1,3 +1,8 @@
+body {
+  background-color: #fff;
+  justify-items: center;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -16,6 +21,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
 }
+
 #text1 {
   height: 150px;
   font-weight: 300;
@@ -64,4 +70,150 @@ ul {
 
 li {
   margin: 5px;
+}
+
+#work-item-one {
+  height: 540px;
+  padding: 20px;
+  padding-right: 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 1px solid rgb(220, 217, 217);
+  padding-bottom: 40px;
+}
+
+#work-item-one h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 1px 0 2px;
+  width: 186px;
+}
+
+#work-item-one p {
+  height: 62px;
+  width: 327px;
+  left: 24px;
+  top: 276px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+#work-item-one span {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 1px solid #396df2;
+  border-radius: 16px;
+  width: 140px;
+  height: 48px;
+  color: #396df2;
+}
+
+#work-item-one ul {
+  display: flex;
+  flex-direction: row;
+  padding-right: 20px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+}
+
+#canopy {
+  font-weight: 600;
+  color: #404752;
+}
+
+#first-list {
+  display: flex;
+  color: #4c5058;
+  padding-left: 0;
+  margin: 0;
+}
+
+#first-list img {
+  padding-right: 10px;
+}
+
+#languages li {
+  background-color: #ebebff;
+  padding: 0 10px;
+  border-radius: 5px;
+  width: max-content;
+  height: 30px;
+  justify-content: center;
+  text-align: center;
+  color: #6070ff;
+  margin-top: 1px;
+}
+
+#About-Myself span {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 1px solid #396df2;
+  border-radius: 16px;
+  width: 140px;
+  height: 48px;
+  color: #396df2;
+}
+
+#Languages span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 34px;
+  width: 280px;
+  font-family: "Poppins", sans-serif;
+  justify-content: space-between;
+}
+
+#About-Myself span:hover {
+  color: white;
+  background-color: #396df2;
+}
+
+#Languages span img {
+  display: flex;
+  flex-direction: row;
+}
+
+#languages-list {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+}
+
+#languages-list li {
+  display: flex;
+  background-color: #eeeef6;
+  border-radius: 8px;
+  align-items: center;
+  padding-left: 15px;
+}
+
+#languages-list h3 {
+  padding-left: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
