@@ -3,11 +3,14 @@ body {
   justify-items: center;
 }
 
+section {
+  width: 100%;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: -1px 24px;
   gap: 12px;
   position: absolute;
   width: 375px;
@@ -36,7 +39,6 @@ nav {
 
 .container p {
   height: 146px;
-  width: 327px;
   left: 24px;
   top: 276px;
   font-family: "Poppins", sans-serif;
@@ -90,12 +92,21 @@ li {
   line-height: 44px;
   color: #172b4d;
   margin: 1px 0 2px;
-  width: 186px;
+}
+
+.contact-form .text-container p,
+.contact-form .text-container h2 {
+  color: #fff;
+}
+
+.contact-form .text-container p {
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 20px;
 }
 
 #work-item-one p {
   height: 62px;
-  width: 327px;
   left: 24px;
   top: 276px;
   font-family: "Poppins", sans-serif;
@@ -108,20 +119,15 @@ li {
 
 #work-item-one span {
   font-family: "Poppins", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   letter-spacing: 0.03em;
   border: 1px solid #396df2;
   border-radius: 16px;
-  width: 140px;
-  height: 48px;
   color: #396df2;
+  padding: 12px;
 }
 
 #work-item-one ul {
@@ -152,7 +158,6 @@ li {
   background-color: #ebebff;
   padding: 0 10px;
   border-radius: 5px;
-  width: max-content;
   height: 30px;
   justify-content: center;
   text-align: center;
@@ -162,20 +167,15 @@ li {
 
 #About-Myself span {
   font-family: "Poppins", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   letter-spacing: 0.03em;
   border: 1px solid #396df2;
   border-radius: 16px;
-  width: 140px;
-  height: 48px;
   color: #396df2;
+  padding: 12px;
 }
 
 #Languages span {
@@ -183,7 +183,6 @@ li {
   flex-direction: row;
   align-items: center;
   padding-left: 34px;
-  width: 280px;
   font-family: "Poppins", sans-serif;
   justify-content: space-between;
 }
@@ -201,7 +200,6 @@ li {
 #languages-list {
   display: flex;
   flex-direction: column;
-  width: 320px;
 }
 
 #languages-list li {
@@ -216,4 +214,74 @@ li {
   padding-left: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+}
+
+.contact-form {
+  height: 800px;
+  background: url(/images/contact\ form\ shapes-mobile@2x.png);
+  padding: 130px 24px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 100px;
+  background-color: #6070ff;
+  border-radius: 50px 0 0 0;
+  font-family: "poppins", sans-serif;
+  background-size: 402px;
+}
+
+.text-container {
+  text-align: center;
+  padding: 26px 26px 0 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  height: 16px;
+  border: 0;
+  font-family: inherit;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 16px 15px;
+}
+
+input::placeholder {
+  color: #000;
+  font-size: 17px;
+}
+
+textarea {
+  padding: 8px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.form-btn {
+  width: fit-content;
+  padding: 12px 16px;
+  color: #6070ff;
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.form-btn:hover {
+  cursor: pointer;
+  background-color: #6070ff;
+  color: #fff;
+  transition: all 0.8s;
 }
