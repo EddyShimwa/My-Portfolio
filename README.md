@@ -10,7 +10,7 @@
 - HTML
 - CSS
 
-## Online version
+## Link
 https://eddyshimwa.github.io/Portforio/
 
 👤 **Author**
