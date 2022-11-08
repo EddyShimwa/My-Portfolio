@@ -2,7 +2,7 @@
 
 # Portforio
 
-> A simple portforio page
+> My portfolio page
 
 
 ## Built With
