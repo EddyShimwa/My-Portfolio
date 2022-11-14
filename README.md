@@ -9,6 +9,7 @@
 
 - HTML
 - CSS
+- JavaScript
 ## Link
 https://eddyshimwa.github.io/Portforio/
 
