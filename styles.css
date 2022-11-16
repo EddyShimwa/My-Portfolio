@@ -95,6 +95,7 @@ header nav a {
 
 h4:hover {
   color: #384299;
+  transition: 1s;
 }
 
 ul {
@@ -208,6 +209,7 @@ li {
 #work-item-one span:hover {
   background-color: #396df2;
   color: white;
+  transition: 1s;
 }
 
 #work-item-one ul {
@@ -247,6 +249,7 @@ li {
 #About-Myself span:hover {
   color: white;
   background-color: #396df2;
+  transition: 2s;
 }
 
 #Languages span img {
@@ -342,7 +345,7 @@ input:focus {
   cursor: pointer;
   background-color: #6070ff;
   color: #fff;
-  transition: all 0.8s;
+  transition: all 0.9s;
 }
 
 @media (min-width: 600px) {
@@ -374,6 +377,7 @@ input:focus {
   section {
     background-size: cover;
     width: -webkit-fill-available;
+    
   }
 
   #intro {
