@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #e5e5e5;
   justify-items: center;
@@ -16,6 +20,7 @@ body {
 
 header {
   background-color: white;
+  width: 375px;
 }
 
 nav {
@@ -28,6 +33,13 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+#logo {
+  color: #3f3cdb;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .nav-list {
@@ -87,6 +99,7 @@ nav {
   gap: 114px;
   position: absolute;
   height: 604px;
+  width: 375px;
 }
 
 header nav img,
@@ -161,7 +174,7 @@ li {
 }
 
 #work-item-one {
-  height: 540px;
+  min-height: 540px;
   padding: 20px;
   padding-right: 0;
   background-color: rgb(255, 255, 255);
@@ -315,7 +328,7 @@ li {
 }
 
 .contact-form {
-  height: 800px;
+  min-height: 800px;
   background-image: url(/images/contact-form-mobile.svg);
   padding: 130px 24px 20px 24px;
   display: flex;
@@ -419,7 +432,6 @@ input:focus {
   section {
     background-size: cover;
     width: -webkit-fill-available;
-    
   }
 
   #intro {
