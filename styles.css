@@ -30,6 +30,13 @@ nav {
   justify-content: space-between;
 }
 
+#logo {
+  color: #3f3cdb;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
 .nav-list {
   color: #344563;
   font-family: "Poppins", sans-serif;
@@ -419,7 +426,6 @@ input:focus {
   section {
     background-size: cover;
     width: -webkit-fill-available;
-    
   }
 
   #intro {
