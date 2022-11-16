@@ -42,7 +42,7 @@ nav {
   margin: 0;
   padding: 50px 0;
   list-style: none;
-  display: flex;
+  display: none;
   flex-direction: column;
   position: fixed;
   width: 100%;
@@ -54,6 +54,10 @@ nav {
   background: rgba(33, 41, 114, 0.7);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   height: 100%;
+}
+
+.df {
+  display: flex !important;
 }
 
 .nav-link {
