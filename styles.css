@@ -38,6 +38,40 @@ nav {
   display: none;
 }
 
+.mobile-nav {
+  margin: 0;
+  padding: 50px 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(10px);
+  background: rgba(33, 41, 114, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  height: 100%;
+}
+
+.nav-link {
+  font-size: 34px;
+  line-height: 44px;
+  margin: 20px 24px;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+#cross-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
 #works {
   margin: 0 24px;
 }
@@ -363,6 +397,10 @@ input:focus {
     top: 25px;
     left: 155px;
     right: 155px;
+  }
+
+  .mobile-navbar {
+    display: none;
   }
 
   .nav-list {
