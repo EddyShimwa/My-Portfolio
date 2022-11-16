@@ -1,5 +1,17 @@
 const hamburger = document.querySelector('.hamburger');
-const navItems = document.querySelectorAll('.nav-list');
+const navList = document.querySelectorAll('.nav-list');
+const body = document.querySelector('');
 
+let MobileNav = false;
 
-hamburger.addEventListener('click')
+function toggleNav() {
+  if (MobileNav) {
+    navList.classList.remove('df');
+    MobileNav = false;
+  } else {
+    navList.classList.add('df');
+    MobileNav = true;
+  }
+}
+
+hamburger.addEventListener('click',toggleNav)
