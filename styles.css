@@ -20,7 +20,6 @@ body {
 
 header {
   background-color: white;
-  width: 375px;
 }
 
 nav {
@@ -99,7 +98,6 @@ nav {
   gap: 114px;
   position: absolute;
   height: 604px;
-  width: 375px;
 }
 
 header nav img,
