@@ -16,7 +16,7 @@
   <body>
     <header>
       <nav>
-        <a href="#home"> <img src="images/My-Logo.png" /> </a>
+        <div id="logo"><a href="#">Pray Eddy</a></div> 
         <img class="hamburger" src="images/Union.svg" />
         <div class="nav-list">
           <span>Portfolio</span>
@@ -24,6 +24,12 @@
           <span>Contact</span>
         </div>
       </nav>
+      <ul class="mobile-nav">
+          <span id="cross-icon"><img src="./images/cross-icon.png" alt="X"/></span>
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
     </header>
     <div class="container">
       <section id="intro">
@@ -64,6 +70,7 @@
         </div>
       </section>
       <section id="works">
+        <div id="portfolio"></div>
         <div id="work-item-one">
           <img id="image" src="images/Snapshoot-Portfolio.png" />
           <div>
@@ -164,7 +171,7 @@
             I’m a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
             what you see and have a project you need coded, don’t hestiate to
-            contact me
+            contact me!
           </p>
           <h4>LET’S CONNECT</h4>
           <ul>
@@ -224,7 +231,7 @@
         </div>
       </section>
 
-      <footer class="contact-form">
+      <footer class="contact-form" id="contact">
         <div class="text-container">
           <h2 class="primary-text">Contact me</h2>
           <p class="paragraph-details">
@@ -259,5 +266,6 @@
         </form>
       </footer>
     </div>
+    <script src="/app.js"></script>
   </body>
 </html>

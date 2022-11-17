@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #e5e5e5;
   justify-items: center;
@@ -30,12 +34,57 @@ nav {
   justify-content: space-between;
 }
 
+#logo {
+  color: #3f3cdb;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
 .nav-list {
   color: #344563;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 15px;
   display: none;
+}
+
+.mobile-nav {
+  margin: 0;
+  padding: 50px 0;
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(10px);
+  background: rgba(33, 41, 114, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  height: 100%;
+}
+
+.df {
+  display: flex !important;
+}
+
+.nav-link {
+  font-size: 34px;
+  line-height: 44px;
+  margin: 20px 24px;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+#cross-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }
 
 #works {
@@ -95,6 +144,7 @@ header nav a {
 
 h4:hover {
   color: #384299;
+  transition: 1s;
 }
 
 ul {
@@ -122,7 +172,7 @@ li {
 }
 
 #work-item-one {
-  height: 540px;
+  min-height: 540px;
   padding: 20px;
   padding-right: 0;
   background-color: rgb(255, 255, 255);
@@ -208,6 +258,7 @@ li {
 #work-item-one span:hover {
   background-color: #396df2;
   color: white;
+  transition: 1s;
 }
 
 #work-item-one ul {
@@ -247,6 +298,7 @@ li {
 #About-Myself span:hover {
   color: white;
   background-color: #396df2;
+  transition: 2s;
 }
 
 #Languages span img {
@@ -274,7 +326,7 @@ li {
 }
 
 .contact-form {
-  height: 800px;
+  min-height: 800px;
   background-image: url(/images/contact-form-mobile.svg);
   padding: 130px 24px 20px 24px;
   display: flex;
@@ -342,7 +394,7 @@ input:focus {
   cursor: pointer;
   background-color: #6070ff;
   color: #fff;
-  transition: all 0.8s;
+  transition: all 0.9s;
 }
 
 @media (min-width: 600px) {
@@ -360,6 +412,10 @@ input:focus {
     top: 25px;
     left: 155px;
     right: 155px;
+  }
+
+  .mobile-navbar {
+    display: none;
   }
 
   .nav-list {
