@@ -23,10 +23,10 @@ https://eddyshimwa.github.io/Portforio/
 - LinkedIn: [Pray Eddy SHIMWA]([https://www.linkedin.com/in/pray-eddy-shimwa-18a6751b6/]
 
 ## 🤝 Contributing
+- [@EddyShimwa](https://github.com/EddyShimwa)
 
-Contributions, issues, and feature requests are welcome!
+- [Abu Raihan](https//github.com/raihan2bd)
 
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
