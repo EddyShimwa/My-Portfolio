@@ -3,6 +3,7 @@
 }
 
 body {
+  font-family: Poppins, sans-serif;
   background-color: #e5e5e5;
   justify-items: center;
   margin: 0;
@@ -397,6 +398,135 @@ input:focus {
   transition: all 0.9s;
 }
 
+.article-popup {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2000;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(9px);
+  background: rgba(11, 26, 59, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(30, 37, 141, 0.37);
+}
+
+.article-modal {
+  gap: 9px;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  display: flex;
+  overflow: scroll;
+  max-width: 1156px;
+  margin: 24px 15px;
+  position: relative;
+  background: #fff;
+  border-radius: 25px;
+  flex-direction: column;
+}
+
+#cross-article {
+  position: fixed;
+  align-self: flex-end;
+}
+
+.article-title {
+  font-size: 48px;
+  line-height: 52px;
+  color: #091e42;
+  margin: 0;
+}
+
+.frames {
+  list-style: initial;
+  margin: 0;
+  padding: 0;
+}
+
+.frame:first-child {
+  font-weight: bold;
+  list-style: none;
+  color: #344563;
+}
+.frame {
+  margin: 10px;
+  color: #344563;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.img-prev {
+  display: flex;
+  justify-content: center;
+}
+
+.img-prev img {
+  max-width: 100%;
+}
+
+.article-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-block {
+  width: 100%;
+}
+
+.right-block hr {
+  border: 1px solid #ebecf0;
+}
+
+.article-details {
+  text-align: justify;
+}
+
+.right-block {
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  margin-top: 10px;
+}
+
+.act-btn {
+  padding: 10px 14px;
+  color: #3a6ff2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  max-width: 146px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.act-btn:hover {
+  background-color: #000530;
+  color: #fff;
+}
+
+.act-btn img {
+  margin-left: 10px;
+}
+
+.article-tag {
+  font-size: 12px;
+  color: #6070ff;
+  background: #ebebff;
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+
 @media (min-width: 600px) {
   body {
     background: rgb(248, 250, 248);
@@ -538,5 +668,18 @@ input:focus {
 
   #languages {
     padding-bottom: 60px;
+  }
+
+  .article-block {
+    flex-direction: row;
+  }
+
+  .left-block {
+    width: 66%;
+  }
+
+  .right-block {
+    width: 34%;
+    padding-left: 15px;
   }
 }
