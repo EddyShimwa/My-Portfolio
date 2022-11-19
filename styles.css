@@ -557,6 +557,17 @@ input:focus {
   background-color: #6070ff;
 }
 
+.invalid {
+  border: 1px solid #ff0000;
+}
+
+.error {
+  background: #ff6666;
+  color: #742020;
+  padding: 10px;
+  border-radius: 8px;
+}
+
 @media (min-width: 600px) {
   body {
     background: rgb(248, 250, 248);
