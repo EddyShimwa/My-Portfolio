@@ -558,11 +558,11 @@ input:focus {
 }
 
 .invalid {
-  border: 1px solid #ff0000;
+  border: 1px solid #f00;
 }
 
 .error {
-  background: #ff6666;
+  background: #f66;
   color: #742020;
   padding: 10px;
   border-radius: 8px;
