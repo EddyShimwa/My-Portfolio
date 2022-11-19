@@ -161,11 +161,13 @@ actionsBtn.forEach((btn) => {
   });
 });
 
-//Validation of the form
+// Validation of the form
 function onSubmit(e) {
   const inputEmail = document.getElementById('email');
   const formInfo = document.getElementById('form-info');
   const email = inputEmail.value;
+  const message = document.getElementById('message').value;
+  const name = document.getElementById('name').value;
 
   // Check if email value is lowercase or not
   if (email !== email.toLowerCase()) {
@@ -178,6 +180,10 @@ function onSubmit(e) {
     formInfo.classList.remove('error');
   }
 }
+const email = document.getElementById('email');
+const message = document.getElementById('message');
+const name = document.getElementById('name');
+
 const contactForm = document.getElementById('contact-form');
 contactForm.addEventListener('submit', onSubmit);
 
