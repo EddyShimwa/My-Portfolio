@@ -178,12 +178,18 @@ function onSubmit(e) {
   } else {
     inputEmail.classList.remove('invalid');
     formInfo.classList.remove('error');
+    const form = { message, name, email };
+    localStorage.setItem('form', JSON.stringify(form))
   }
 }
 const email = document.getElementById('email');
 const message = document.getElementById('message');
 const name = document.getElementById('name');
 
+var storedInfo = JSON.parse(localStorage.getItem('form'))
+email.value = storedInfo.email;
+name.value = storedInfo.name;
+message.value = storedInfo.message;
 const contactForm = document.getElementById('contact-form');
 contactForm.addEventListener('submit', onSubmit);
 
