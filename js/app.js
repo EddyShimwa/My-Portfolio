@@ -166,8 +166,6 @@ function onSubmit(e) {
   const inputEmail = document.getElementById('email');
   const formInfo = document.getElementById('form-info');
   const email = inputEmail.value;
-  const message = document.getElementById('message').value;
-  const name = document.getElementById('name').value;
 
   // Check if email value is lowercase or not
   if (email !== email.toLowerCase()) {
