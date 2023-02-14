@@ -160,3 +160,50 @@ actionsBtn.forEach((btn) => {
     fetchOneProject(id);
   });
 });
+
+// Validation of the form
+function onSubmit(e) {
+  const inputEmail = document.getElementById('email');
+  const formInfo = document.getElementById('form-info');
+  const email = inputEmail.value;
+
+  // Check if email value is lowercase or not
+  if (email !== email.toLowerCase()) {
+    e.preventDefault();
+    inputEmail.classList.add('invalid');
+    formInfo.classList.add('error');
+    formInfo.innerText = 'Error submitting form! The Email should be in lower case!!';
+  } else {
+    inputEmail.classList.remove('invalid');
+    formInfo.classList.remove('error');
+    const form = { message, name, email };
+    localStorage.setItem('form', JSON.stringify(form));
+  }
+}
+
+function fetchLocalStorage() {
+  const email = document.getElementById('email');
+  const message = document.getElementById('message');
+  const name = document.getElementById('name');
+  const storedInfo = JSON.parse(localStorage.getItem('form'));
+  if (storedInfo) {
+    email.value = storedInfo.email;
+    name.value = storedInfo.name;
+    message.value = storedInfo.message;
+  }
+}
+const contactForm = document.getElementById('contact-form');
+contactForm.addEventListener('submit', onSubmit);
+
+// Remove Error onchange from the form.
+const inputEmail = document.getElementById('email');
+const formInfo = document.getElementById('form-info');
+inputEmail.addEventListener('change', () => {
+  inputEmail.classList.remove('invalid');
+  formInfo.classList.remove('error');
+  formInfo.innerText = '';
+});
+
+window.onload = () => {
+  fetchLocalStorage();
+};
