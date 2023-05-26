@@ -59,6 +59,17 @@ const worksData = [
     liveLink: '#',
     sourceLink: '#',
   },
+  {
+    id: 'project5',
+    title: 'PocketPal App',
+    frame: ['Mobile', 'Full-Stack DEV', 2023],
+    tags: ['Ruby, Rails, JavaScript', 'CSS'],
+    imageUrl: './images/PocketPal/images/combinedImg',
+    projectDetails:
+    "PocketPal is a web mobile app which allows users to track income, expenses, and savings, set financial goals, and monitor their progress towards those goals. Budget apps can also offer features such as bill reminders, categorization of expenses, and analysis of spending habits.",
+    liveLink: 'pocket-pal-app.onrender.com/',
+    sourceLink: 'https://github.com/EddyShimwa/PocketPal',
+  },
 ];
 
 function fetchOneProject(id) {
