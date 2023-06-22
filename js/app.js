@@ -13,6 +13,22 @@ allNavLinks.forEach((navLink) => {
   navLink.addEventListener('click', toggleNav);
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  var navLinks = document.querySelectorAll('.nav-list span');
+
+  // Add click event listener to each navigation link
+  navLinks.forEach(function(link) {
+    link.addEventListener('click', function() {
+      var sectionId = this.getAttribute('data-section');
+      var section = document.getElementById(sectionId);
+
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+});
+
 // workData
 const worksData = [
   {

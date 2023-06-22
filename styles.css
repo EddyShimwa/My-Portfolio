@@ -685,6 +685,18 @@ input:focus {
 
   #text1 {
     height: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  #text1 .greeting {
+    
+  }
+
+  #text1 img {
+    width: 20%;
+    margin-left: 50%;
+    border-radius: 40%;
   }
 
   .contact-form .text-container p,
