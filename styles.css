@@ -687,16 +687,21 @@ input:focus {
     height: auto;
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
   }
 
 .greeting {
-    margin-right: 20%;
-  
+    
+    display: flex;
+    width: 60%;
+  }
+
+  .greeting-message {
+    width: 100%;
   }
 
   #picture img{
-    width: 30%;
+    width: 40%;
     height: 20%;
     border-radius: 50%;
   }
