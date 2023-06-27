@@ -234,7 +234,7 @@ li {
   width: fit-content;
   display: block;
   margin-top: 24px;
-  cursor: pointe;
+  cursor: pointer;
 }
 
 #About-Myself span {
@@ -248,16 +248,6 @@ li {
   border-radius: 16px;
   color: #396df2;
   padding: 12px;
-}
-
-#Languages span {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-left: 34px;
-  font-family: "Poppins", sans-serif;
-  justify-content: space-between;
-  color: #344563;
 }
 
 #work-item-one span:hover {
@@ -621,9 +611,10 @@ input:focus {
     background-position: center top -150px;
   }
 
-  #intro #content {
+#content {
     display: flex;
     flex-direction: column;
+
   }
 
   #works {
@@ -655,7 +646,8 @@ input:focus {
   #work-item-one #image {
     flex: 1;
     width: 50%;
-    height: 85%
+    height: 85%;
+    border-radius: 10px;
   }
 
   #languages-list li {
@@ -680,8 +672,8 @@ input:focus {
   }
 
   #about {
+    display: flex;
     padding: 142px 182px 137px 142px;
-    flex-direction: row;
     gap: 25px;
   }
 
@@ -689,24 +681,21 @@ input:focus {
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
   }
 
 .greeting {
     
     display: flex;
-    width: 60%;
-  }
-
-  .greeting-message {
     width: 100%;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  #picture img{
-    width: 40%;
-    height: 20%;
-    border-radius: 50%;
-  }
+#picture {
+   width: 24%;
+   height: 5%;
+   border-radius: 100%;
+}
 
   .contact-form .text-container p,
   .contact-form .text-container h2 {
@@ -738,10 +727,6 @@ input:focus {
 
   .form-btn {
     margin: auto;
-  }
-
-  #languages {
-    padding-bottom: 60px;
   }
 
   .article-block {
