@@ -616,7 +616,9 @@ input:focus {
   #intro {
     padding: 300px 260px;
     border-radius: 0 0 0 100px;
-    background-image: url("images/header-bg.svg");
+    background-image: url("images/header.jpg");
+    background-size: cover;
+    background-position: center top -150px;
   }
 
   #intro #content {
