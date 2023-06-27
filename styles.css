@@ -36,7 +36,7 @@ nav {
 }
 
 #logo {
-  color: #3f3cdb;
+  color: #c9c9ef;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 24px;
@@ -288,54 +288,10 @@ li {
   padding-right: 10px;
 }
 
-#languages li {
-  background-color: #ebebff;
-  padding: 4px 12px;
-  border-radius: 8px;
-  justify-content: center;
-  text-align: center;
-  color: #6070ff;
-  margin: 0;
-}
-
 #About-Myself span:hover {
   color: white;
   background-color: #396df2;
   transition: 2s;
-}
-
-#Languages span img {
-  display: flex;
-  flex-direction: row;
-}
-
-#languages-list {
-  display: flex;
-  flex-direction: column;
-}
-
-#languages-list li {
-  display: flex;
-  background-color: #eeeef6;
-  border-radius: 8px;
-  align-items: center;
-  padding-left: 15px;
-}
-
-#languages-list li img {
-  width: 40%;
-  height: 40%;
-}
-
-#languages-list li img {
-  width: 40%;
-  height: 40%;
-}
-
-#languages-list h3 {
-  padding-left: 20px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
 }
 
 .contact-form {
@@ -648,21 +604,6 @@ input:focus {
     width: 50%;
     height: 85%;
     border-radius: 10px;
-  }
-
-  #languages-list li {
-    align-items: flex-start;
-    padding: 12px 12px 0;
-    flex-direction: column;
-    width: 122px;
-  }
-
-  #languages-list {
-    flex-direction: row;
-  }
-
-  #languages-list h3 {
-    padding: 0;
   }
 
   .container p {
