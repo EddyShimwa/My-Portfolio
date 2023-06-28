@@ -19,9 +19,9 @@
       <div id="logo"><a href="#">Pray Eddy</a></div>
       <img class="hamburger" src="images/Union.svg" />
       <div class="nav-list">
-        <span>Portfolio</span>
-        <span>About</span>
-        <span>Contact</span>
+        <span data-section="works">Portfolio</span>
+        <span data-section="about">About</span>
+        <span data-section="contact">Contact</span>
       </div>
     </nav>
     <ul class="mobile-nav">
@@ -35,7 +35,12 @@
     <section id="intro">
       <div id="content">
         <div id="text1">
-          <h1>I’m Eddy <br />Glad to see you!</h1>
+          <div class="greeting">
+            <h1 class="greeting-message">I’m Eddy <br />Glad to see you!</h1>
+            <img src="/images/eddyy.jpg" alt="Your Picture" id="picture"/>
+          </div>
+         
+         
         </div>
         <p>
           I’m a software developer! I can help you build a product , feature
@@ -44,6 +49,7 @@
           contact me
         </p>
         <h4>LET’S CONNECT</h4>
+       
         <ul>
           <li>
             <a href="https://twitter.com/eddy56388406">
@@ -85,8 +91,8 @@
             completed items to improve productivity.
           </p>
           <ul id="languages">
-            <li>HTML</li>
-            <li>CSS</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
             <li>javaScript</li>
           </ul>
           <span class="see-more-action" id="project1">See Project</span>
@@ -109,7 +115,7 @@
           </p>
           <ul id="languages">
             <li>html</li>
-            <li>CSS</li>
+            <li>CSS5</li>
             <li>javaScript</li>
           </ul>
           <span class="see-more-action" id="project2">See Project</span>
@@ -131,7 +137,7 @@
           </p>
           <ul id="languages">
             <li>React.js</li>
-            <li>CSS</li>
+            <li>CSS3</li>
             <li>javaScript</li>
           </ul>
           <span class="see-more-action" id="project3">See Project</span>
@@ -179,16 +185,17 @@
             <li>Ruby</li>
             <li>Rails</li>
             <li>javaScript</li>
-            <li>Css</li>
+            <li>CSS3</li>
           </ul>
           <span class="see-more-action" id="project4">See Project</span>
         </div>
       </div>
     </section>
-    <section id="about">
+
+ <section id="about">
       <div id="About-Myself">
         <div id="text1">
-          <h1>About Myself</h1>
+          <h1>About Me</h1>
         </div>
         <p>
           I’m a software developer! I can help you build a product , feature
@@ -196,6 +203,41 @@
           what you see and have a project you need coded, don’t hestiate to
           contact me!
         </p>
+
+        <!-- <div class="skills">
+             <div class="languages">
+               <h1>Languages</h1>
+             </div>
+             <div class="frameworks">
+               <h1>Frameworks</h1>
+             </div>
+             
+        </div> -->
+        <h1>Technology Skills</h1>
+        <table>
+          <tr>
+            <th>Category</th>
+            <th>Programming Languages</th>
+            <th>Libraries & Frameworks</th>
+            <th>Web Development</th>
+            <th>Database Management</th>
+            <th>Operating Systems</th>
+            <th>Version Control</th>
+            <th>Software Development Methodologies</th>
+            <th>Developer tools</th>
+          </tr>
+          <tr>
+            <td>Technology</td>
+            <td>Java, Python, C++, Ruby, JavaScript, PHP</td>
+            <td>React, Rails, jQuery, Django, Express.js</td>
+            <td>HTML5, CSS3</td>
+            <td>SQL, Oracle, MySQL, MongoDB, PostgreSQL</td>
+            <td>Windows, Linux, Unix, MacOS</td>
+            <td>Git, SVN</td>
+            <td>Agile, Waterfall</td>
+            <td>GitHub, Slack</td>
+          </tr>
+        </table>
         <h4>LET’S CONNECT</h4>
         <ul>
           <li>
@@ -223,48 +265,9 @@
       
           <a class="span"
             href="https://docs.google.com/document/d/1UHqwl1xGIS2Fm5Dyv8PcgyINHwZmnevo2Pkwg4f7pis/edit?usp=sharing">View my Resume</a>
-       
       </div>
-      <div id="Languages">
-        <span>
-          <h3>Languages</h3>
-          <img src="images/down-button.png" />
-        </span>
-        <ul id="languages-list">
-          <li>
-            <img src="images/js-icon.png" />
-            <h3>javaScript</h3>
-          </li>
-          <li>
-            <img src="images/html-icon.png" />
-            <h3>HTML</h3>
-          </li>
-          <li>
-            <img src="images/css-icon.png" />
-            <h3>CSS</h3>
-          </li>
-          <li>
-            <img src="images/ruby.png" />
-            <h3>Ruby</h3>
-          </li>
-          <li>
-            <img src="images/rails.png" />
-            <h3>Rails</h3>
-          </li>
-        </ul>
-        <span>
-          <h3>Frameworks</h3>
-          <img src="images/right-button.png" />
-        </span>
-        <hr />
-        <span>
-          <h3>Skills</h3>
-          <img src="images/right-button.png" />
-        </span>
-        <hr />
-      </div>
-    </section>
 
+ </section>
     <footer class="contact-form" id="contact">
       <div class="text-container">
         <h2 class="primary-text">Contact me</h2>
@@ -284,7 +287,6 @@
         <button type="submit" class="btn_submit">Get It Touch</button>
       </form>
     </footer>
-  </div>
   <script src="./js/app.js"></script>
 </body>
 
