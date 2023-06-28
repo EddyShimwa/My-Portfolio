@@ -576,7 +576,7 @@ input:focus {
   #works {
     /* width: px; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0 142px;
   }
 
@@ -623,7 +623,9 @@ input:focus {
     display: flex;
     align-items: center;
   }
-
+#About-Myself h1{
+  color: #091e42;
+}
 .greeting {
     
     display: flex;
@@ -633,9 +635,9 @@ input:focus {
   }
 
 #picture {
-   width: 24%;
-   height: 5%;
-   border-radius: 100%;
+   width: 15%;
+   height: 30%;
+   border-radius: 70px;
 }
 
   .contact-form .text-container p,
@@ -688,11 +690,54 @@ input:focus {
     width: 100%;
   }
   th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(20, 20, 29);
     padding: 8px;
     text-align: left;
   }
   th {
     background-color: #f2f2f2;
   }
+
+  
+  .fab {
+    color: #1d4292; 
+  }
+  
+  .fas {
+    color: #9e4343; 
+  }
+  
+  .fab.fa-html5 {
+    color: #e34c26; 
+  }
+  
+  .fab.fa-css3-alt {
+    color: #2965f1; 
+  }
+  
+  .fab.fa-github {
+    color: #333333; 
+  }
+  
+  .fab.fa-slack {
+    color: #4a154b; 
+  }
+  
+  .fab.fa-discord {
+    color: #7289da; /* Discord Blue */
+  }
+
+  .fas.fa-leaf {
+    color: rgb(139, 185, 70);
+  }
+
+  .fab.fa-js {
+    color: rgb(158, 145, 6)
+  }
+  .Category {
+    color: #061d44;
+    font-weight: bold;
+  }
+
+  
 }
