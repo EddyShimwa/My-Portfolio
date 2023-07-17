@@ -2,7 +2,7 @@
 
 # Portforio
 
-> My portfolio page containing the proects I worked on and the skills i have
+> My portfolio page containing the proects I worked on and the skills i have so far
 
 
 ## Built With
