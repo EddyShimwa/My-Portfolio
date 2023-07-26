@@ -536,9 +536,9 @@ input:focus {
   }
 
   nav {
-    top: 25px;
-    left: 155px;
-    right: 155px;
+   width: 100%;
+   justify-content: space-evenly;
+   
   }
 
   .mobile-navbar {
@@ -548,6 +548,7 @@ input:focus {
   .nav-list {
     display: flex;
     gap: 32px;
+     /* justify-content: space-between; */
   }
 
   .hamburger {
