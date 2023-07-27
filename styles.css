@@ -124,6 +124,30 @@ header nav a {
 
 #text1 h1 {
   color: #091e42;
+  font-size: larger;
+}
+
+/* Add necessary styles to hide the text initially */
+.greeting-message {
+  opacity: 0;
+}
+
+/* Define the animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the text */
+.greeting-message {
+  animation-name: fadeIn;
+  animation-duration: 1s; 
+  animation-delay: 1s;    
+  animation-fill-mode: forwards; 
 }
 
 .container p {
@@ -176,13 +200,15 @@ li {
 }
 
 #work-item-one {
+  display: block;
   min-height: 540px;
   padding: 20px;
   padding-right: 0;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   border: 1px solid rgb(220, 217, 217);
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
+  margin-bottom: 20px;
 }
 
 #work-item-one h1 {
@@ -209,27 +235,30 @@ li {
 
 #work-item-one p {
   height: 62px;
-  left: 24px;
-  top: 276px;
+  /* left: 24px; */
+  /* top: 276px; */
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
+  display: flex;
+  margin-bottom: 50px;
+  position: static;
 }
 
 #work-item-one span {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
+  line-height: 20px;
   text-align: center;
   letter-spacing: 0.03em;
   border: 1px solid #396df2;
   border-radius: 16px;
   color: #396df2;
-  padding: 12px;
+  padding: 10px;
   width: fit-content;
   display: block;
   margin-top: 24px;
@@ -259,13 +288,13 @@ li {
   transition: 1s;
 }
 
-#work-item-one ul {
+/* #work-item-one ul {
   display: flex;
   flex-direction: row;
   padding-right: 20px;
   font-family: "poppins", sans-serif;
   font-weight: 500;
-}
+} */
 
 #canopy {
   font-weight: 600;
@@ -284,9 +313,20 @@ li {
   display: none;
 }
 
-#languages {
- display: none;
+ul#languages {
+ display: flex;
+ justify-content: space-between;
+ padding-top: 16px
 }
+ 
+ul#languages li {
+  font-size: 12px;
+  color: #6070ff;
+  background: #ebebff;
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+
 .img-prev img {
   max-width: 100%;
 }
