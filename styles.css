@@ -23,17 +23,6 @@ header {
   background-color: white;
 }
 
-nav {
-  width: -webkit-fill-available;
-  z-index: 1;
-  top: 14px;
-  left: 24px;
-  right: 36px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 #logo {
   color: #c9c9ef;
   font-family: "Poppins", sans-serif;
@@ -173,7 +162,7 @@ header nav a {
 .exclamation {
   animation-name: fadeInExclamation;
   animation-duration: 1s;
-  animation-delay: 2s; 
+  animation-delay: 7s; 
   animation-fill-mode: forwards;
 }
 
@@ -672,13 +661,16 @@ input:focus {
     width: fit-content;
   }
 
-  nav {
-   /* width: 100%; */
-   justify-content: center;
-   background-color: #435fa1b5;
-   height: 10vh;
 
+  nav {
+    width: -webkit-fill-available;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    
   }
+  
 
   .mobile-navbar {
     display: none;
@@ -686,8 +678,12 @@ input:focus {
 
   .nav-list {
     display: flex;
-    gap: 32px;
     align-items: center;
+    gap: 23px;
+    background-color: #3a5075;
+    padding: 3%;
+    margin-left: 537px;
+    border-radius: 10px;
   }
   
 .nav-list span {
@@ -718,6 +714,12 @@ input:focus {
 
   }
 
+  .titlee {
+    color: #091e42;
+    display: flex;
+    justify-content: center;
+    font-size:xx-large
+  }
   #works {
     /* width: px; */
     display: flex;
