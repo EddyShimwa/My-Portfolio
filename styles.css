@@ -704,7 +704,7 @@ input:focus {
     gap: 23px;
     background-color: #3a5075e4;
     padding: 2%;
-    margin-left: 640px;
+    margin: auto;
     border-radius: 10px;
   }
   
@@ -770,8 +770,8 @@ input:focus {
 
   #work-item-one #image {
     flex: 1;
-    width: 50%;
-    height: 85%;
+    width: 30%;
+    height: 60%;
     border-radius: 20px;
   }
 
