@@ -31,7 +31,6 @@ a {
 }
 
 .nav-list {
-
   display: none;
 }
 
@@ -157,7 +156,7 @@ header nav a {
 .exclamation {
   animation-name: fadeInExclamation;
   animation-duration: 1s;
-  animation-delay: 7s; 
+  animation-delay: 7s;
   animation-fill-mode: forwards;
 }
 
@@ -290,7 +289,6 @@ li {
 
 #work-item-one img {
   width: 90%;
-
 }
 #About-Myself span {
   font-family: "Poppins", sans-serif;
@@ -337,11 +335,11 @@ li {
 }
 
 ul#languages {
- display: flex;
- justify-content: space-between;
- padding-top: 16px
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
 }
- 
+
 ul#languages li {
   font-size: 12px;
   color: #6070ff;
@@ -360,7 +358,7 @@ ul#languages li {
 
 #first-list img {
   /* adding-right: 10px;p */
-  width: 15px
+  width: 15px;
 }
 
 #About-Myself span:hover {
@@ -666,20 +664,42 @@ input:focus {
     background-image: none;
     top: 0;
   }
-
+  header {
+    cursor: pointer;
+  }
   header {
     margin: 0;
     padding: 0;
     display: flex;
   }
 
+  .back-to-top a {
+    display: inline-block;
+    padding: 12px 16px;
+    font-size: 17px;
+    line-height: 24px;
+    color: #c6c8d5;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 10px 0;
+    align-self: flex-start;
+    border: 1px solid #fff;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .back-to-top a:hover {
+    color: #fff;
+    background-color: #6070ff;
+    border-color: #6070ff;
+  }
+
   nav {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    background-color: #f2f2f2; 
+    background-color: #f2f2f2;
     width: 100%;
     margin-top: 8%;
   }
@@ -717,17 +737,16 @@ input:focus {
     background-position: center top -150px;
   }
 
-#content {
+  #content {
     display: flex;
     flex-direction: column;
-
   }
 
   .titlee {
     color: #091e42;
     display: flex;
     justify-content: center;
-    font-size:xx-large
+    font-size: xx-large;
   }
   #works {
     /* width: px; */
@@ -790,11 +809,10 @@ input:focus {
     display: flex;
     align-items: center;
   }
-#About-Myself h1{
-  color: #091e42;
-}
-.greeting {
-    
+  #About-Myself h1 {
+    color: #091e42;
+  }
+  .greeting {
     display: flex;
     width: 100%;
     align-items: center;
@@ -805,11 +823,11 @@ input:focus {
     font-size: 15px;
     font-weight: bold;
   }
-#picture {
-   width: 15%;
-   height: 30%;
-   border-radius: 70px;
-}
+  #picture {
+    width: 15%;
+    height: 30%;
+    border-radius: 70px;
+  }
 
   .contact-form .text-container p,
   .contact-form .text-container h2 {
@@ -865,7 +883,8 @@ input:focus {
     border-collapse: collapse;
     width: 100%;
   }
-  th, td {
+  th,
+  td {
     border: 1px solid rgb(20, 20, 29);
     padding: 8px;
     text-align: left;
@@ -877,31 +896,30 @@ input:focus {
     background-color: #ededed;
   }
 
-  
   .fab {
-    color: #1d4292; 
+    color: #1d4292;
   }
-  
+
   .fas {
-    color: #9e4343; 
+    color: #9e4343;
   }
-  
+
   .fab.fa-html5 {
-    color: #e34c26; 
+    color: #e34c26;
   }
-  
+
   .fab.fa-css3-alt {
-    color: #2965f1; 
+    color: #2965f1;
   }
-  
+
   .fab.fa-github {
-    color: #333333; 
+    color: #333333;
   }
-  
+
   .fab.fa-slack {
-    color: #4a154b; 
+    color: #4a154b;
   }
-  
+
   .fab.fa-discord {
     color: #7289da; /* Discord Blue */
   }
@@ -911,7 +929,7 @@ input:focus {
   }
 
   .fab.fa-js {
-    color: rgb(158, 145, 6)
+    color: rgb(158, 145, 6);
   }
   .Category {
     color: #061d44;
@@ -936,5 +954,4 @@ input:focus {
     color: #eeeeee;
     font-weight: bold;
   }
-  
 }
