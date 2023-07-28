@@ -264,6 +264,10 @@ li {
   text-align: center;
 }
 
+.contact-form {
+  
+}
+
 .contact-form .text-container p {
   font-weight: 400;
   line-height: 28px;
@@ -428,7 +432,6 @@ td::before {
   background-position-x: right;
   border-radius: 50px 0 0 0;
   font-family: "poppins", sans-serif;
-  margin-top: -160px;
 }
 
 .text-container {
