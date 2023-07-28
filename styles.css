@@ -171,6 +171,18 @@ header nav a {
   animation-fill-mode: forwards;
 }
 
+#typing-animation::after {
+  content: "|"; /* Cursor that appears after the content */
+  display: inline-block;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
 
 .container p {
   font-family: "Poppins", sans-serif;
@@ -366,6 +378,38 @@ ul#languages li {
   color: white;
   background-color: #396df2;
   transition: 2s;
+}
+
+th {
+  display: none;
+}
+
+/* Set the table rows to block display to stack them vertically */
+tr {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Set cell borders and spacing for mobile */
+td {
+  border: 1px solid #5c768f;
+  display: block;
+  padding: 6px;
+}
+
+/* Add some space between table cells */
+td::before {
+  content: attr(data-label);
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.Category {
+  color: rgb(14, 36, 45);
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-form {

@@ -29,6 +29,24 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+// Text to be typed out
+const textToType = "I’m a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me";
+
+// Element to display the typing animation
+const typingElement = document.getElementById('typing-animation');
+
+// Function to simulate the typing effect
+function typeWriter(text, index) {
+  if (index < text.length) {
+    typingElement.textContent += text.charAt(index);
+    index++;
+    setTimeout(() => typeWriter(text, index), 50); // Adjust the delay (in milliseconds) to control typing speed
+  }
+}
+
+// Start the typing animation
+typeWriter(textToType, 0);
+
 // workData
 const worksData = [
   {
