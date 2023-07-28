@@ -24,7 +24,6 @@ header {
 }
 
 nav {
-  position: fixed;
   width: -webkit-fill-available;
   z-index: 1;
   top: 14px;
@@ -189,7 +188,6 @@ header nav a {
     opacity: 0;
   }
 }
-
 
 .container p {
   font-family: "Poppins", sans-serif;
@@ -669,10 +667,17 @@ input:focus {
     top: 0;
   }
 
+  header {
+    display: flex;
+    width: fit-content;
+  }
+
   nav {
-   width: 100%;
-   justify-content: space-evenly;
-  
+   /* width: 100%; */
+   justify-content: center;
+   background-color: #435fa1b5;
+   height: 10vh;
+
   }
 
   .mobile-navbar {
@@ -682,9 +687,14 @@ input:focus {
   .nav-list {
     display: flex;
     gap: 32px;
-     
+    align-items: center;
   }
+  
+.nav-list span {
+  color: rgb(196, 212, 245);
+  font-size: 20px;
 
+}
   .hamburger {
     display: none;
   }
@@ -738,7 +748,15 @@ input:focus {
     flex: 1;
     width: 50%;
     height: 85%;
-    border-radius: 10px;
+    border-radius: 20px;
+  }
+
+  .stack {
+    display: flex;
+  }
+
+  .stack img {
+    width: ;
   }
 
   .container p {
@@ -780,6 +798,11 @@ input:focus {
     margin: 0;
   }
 
+  #About-Myself h1 {
+    display: flex;
+    justify-content: center;
+  }
+
   #text1 h1,
   #content h4,
   #content p {
@@ -793,7 +816,7 @@ input:focus {
   .contact-form {
     padding: 142px 435px 127px;
     border-radius: 100px 0 0 0;
-    margin-top: -210px;
+    margin-top: -90px;
     background-size: contain;
     background-image: url(/images/contact-form-bg.svg);
     background-position-x: center;
