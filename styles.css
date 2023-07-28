@@ -130,25 +130,47 @@ header nav a {
 /* Add necessary styles to hide the text initially */
 .greeting-message {
   opacity: 0;
+  transform: translateX(-100%);
 }
 
-/* Define the animation */
-@keyframes fadeIn {
-  from {
+/* Define the animation for "I'm Eddy" and "Glad to see you" */
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Define the animation for the exclamation mark */
+@keyframes fadeInExclamation {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
 
 /* Apply the animation to the text */
 .greeting-message {
-  animation-name: fadeIn;
-  animation-duration: 1s; 
-  animation-delay: 1s;    
-  animation-fill-mode: forwards; 
+  animation-name: slideInFromLeft;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
+
+/* Apply the animation to the exclamation mark */
+.exclamation {
+  animation-name: fadeInExclamation;
+  animation-duration: 1s;
+  animation-delay: 2s; 
+  animation-fill-mode: forwards;
+}
+
 
 .container p {
   font-family: "Poppins", sans-serif;
