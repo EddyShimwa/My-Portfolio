@@ -434,6 +434,13 @@ td::before {
   font-family: "poppins", sans-serif;
 }
 
+#about-text {
+  display: flex;
+  color: #091e42;
+  font-size: larger;
+  justify-content: center;
+}
+
 .text-container {
   text-align: center;
   padding: 26px 26px 0 26px;
