@@ -40,7 +40,7 @@ function typeWriter(text, index) {
   if (index < text.length) {
     typingElement.textContent += text.charAt(index);
     index++;
-    setTimeout(() => typeWriter(text, index), 50); // Adjust the delay (in milliseconds) to control typing speed
+    setTimeout(() => typeWriter(text, index), 20); // Adjust the delay (in milliseconds) to control typing speed
   }
 }
 
