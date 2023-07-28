@@ -61,7 +61,9 @@ a {
 }
 
 .hamburger {
-  width: 10%;
+  width: 15%;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 .df {
@@ -645,6 +647,26 @@ input:focus {
   border-radius: 8px;
 }
 
+.connect {
+  display: flex;
+  justify-content: center;
+}
+.social-medias {
+  display: flex;
+  justify-content: center;
+}
+.resume-span {
+  display: flex;
+  justify-content: center;
+  background-color: #2965f1;
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  color: #eeeeee;
+  font-weight: bold;
+}
+
 @media (min-width: 600px) {
   body {
     background: rgb(248, 250, 248);
@@ -860,9 +882,12 @@ input:focus {
     border: 1px solid rgb(20, 20, 29);
     padding: 8px;
     text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   th {
-    background-color: #f2f2f2;
+    background-color: #ededed;
   }
 
   
@@ -905,6 +930,24 @@ input:focus {
     color: #061d44;
     font-weight: bold;
   }
-
+  .connect {
+    display: flex;
+    justify-content: center;
+  }
+  .social-medias {
+    display: flex;
+    justify-content: center;
+  }
+  .resume-span {
+    display: flex;
+    justify-content: center;
+    background-color: #2965f1;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: #eeeeee;
+    font-weight: bold;
+  }
   
 }
