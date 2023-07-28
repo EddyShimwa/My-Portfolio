@@ -755,10 +755,13 @@ input:focus {
 
   .stack {
     display: flex;
+    align-items: center;
   }
 
   .stack img {
-    width: ;
+    width: 11px;
+    height: 16px;
+    margin-right: 6px;
   }
 
   .container p {
@@ -789,6 +792,10 @@ input:focus {
     justify-content: space-between;
   }
 
+  ul#languages li {
+    font-size: 15px;
+    font-weight: bold;
+  }
 #picture {
    width: 15%;
    height: 30%;
