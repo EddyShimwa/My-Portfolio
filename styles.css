@@ -92,7 +92,7 @@ a {
   gap: 114px;
   position: absolute;
   height: 604px;
-  width: 100%
+  width: 100%;
 }
 
 header nav img,
@@ -227,9 +227,9 @@ li {
   min-height: 540px;
   padding: 20px;
   padding-right: 0;
-  background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-  border: 1px solid rgb(220, 217, 217);
+  background-color: rgb(241, 244, 253);
+  border-radius: 20px;
+  border: 10px solid rgba(49, 100, 167, 0.549);
   /* padding-bottom: 40px; */
   margin-bottom: 20px;
 }
