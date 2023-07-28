@@ -19,10 +19,6 @@ body {
   background-image: url("images/header-mobile.svg");
 }
 
-header {
-  background-color: white;
-}
-
 #logo {
   color: #c9c9ef;
   font-family: "Poppins", sans-serif;
@@ -35,10 +31,7 @@ a {
 }
 
 .nav-list {
-  color: #344563;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 15px;
+
   display: none;
 }
 
@@ -255,10 +248,6 @@ li {
 .contact-form .text-container h2 {
   color: #fff;
   text-align: center;
-}
-
-.contact-form {
-  
 }
 
 .contact-form .text-container p {
@@ -679,40 +668,38 @@ input:focus {
   }
 
   header {
+    margin: 0;
+    padding: 0;
     display: flex;
-    width: fit-content;
   }
-
 
   nav {
-    width: -webkit-fill-available;
-    z-index: 1;
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: row;
-    margin-top: 120px;
-    
+    justify-content: center; 
+    align-items: center;
+    background-color: #f2f2f2; 
+    width: 100%;
+    margin-top: 8%;
   }
-  
-
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    border-radius: 10px;
+    color: #d2e2ff;
+    padding: 1%;
+    z-index: 5;
+    background-color: #172b4d90;
+    font-weight: bold;
+  }
   .mobile-navbar {
     display: none;
   }
 
-  .nav-list {
-    display: flex;
-    align-items: center;
-    gap: 23px;
-    background-color: #3a5075e4;
-    padding: 2%;
-    margin: auto;
-    border-radius: 10px;
-  }
-  
-.nav-list span {
-  color: rgb(196, 212, 245);
-  font-size: 20px;
-
-}
   .hamburger {
     display: none;
   }
