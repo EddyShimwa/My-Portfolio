@@ -206,7 +206,7 @@ actionsBtn.forEach((btn) => {
   });
 });
 
-// Validation of the form
+// Validate the form
 function onSubmit(e) {
   const inputEmail = document.getElementById('email');
   const formInfo = document.getElementById('form-info');
