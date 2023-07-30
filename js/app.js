@@ -240,7 +240,7 @@ function fetchLocalStorage() {
 const contactForm = document.getElementById('contact-form');
 contactForm.addEventListener('submit', onSubmit);
 
-// Remove Error onchange from the form.
+// Remove Error onchange from the form
 const inputEmail = document.getElementById('email');
 const formInfo = document.getElementById('form-info');
 inputEmail.addEventListener('change', () => {
