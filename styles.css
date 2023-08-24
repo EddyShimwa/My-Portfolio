@@ -208,7 +208,7 @@ ul {
 #about {
   background-color: white;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   padding: 24px;
   gap: 48px;
 }
@@ -649,11 +649,19 @@ input:focus {
     color: #d2e2ff;
     padding: 1%;
     z-index: 5;
-    background-color: #172b4d90;
+    background-color: #132af875;
     font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
+ 
+  .nav-list span:hover{
+    text-decoration: underline;
+    transition: 1.5s;
+  }
+
   .mobile-navbar {
     display: none;
+    
   }
 
   .hamburger {
