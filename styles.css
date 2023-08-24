@@ -755,48 +755,6 @@ input:focus {
     margin: 0 142px;
   }
 
-  #work-item-one {
-    height: auto;
-    display: flex;
-    width: 100%;
-    gap: 30px;
-    padding: 24px;
-    justify-content: center;
-  }
-
-  #works:nth-child(odd) #work-item-one {
-    flex-direction: row-reverse;
-  }
-
-  #work-item-one div {
-    flex: 1;
-    width: 100px;
-    padding: 24px 0 0;
-  }
-
-  #work-item-one #image {
-    flex: 1;
-    width: 30%;
-    height: 60%;
-    border-radius: 20px;
-  }
-
-  .stack {
-    display: flex;
-    align-items: center;
-  }
-
-  .stack img {
-    width: 11px;
-    height: 16px;
-    margin-right: 6px;
-  }
-
-  .container p {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 28px;
-  }
 
   #about {
     display: flex;
