@@ -1,33 +1,106 @@
 .works-section{
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 .works {
-    width: 90%;
+    width: 90%; 
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    
 }
 
 #work-item {
-
-    height: 65vh;
+    width: 90%;
     padding: 2%;
     display: flex;
+    background-color: #d4d7f03b;
     flex-direction: column;
-    border: 1px solid #ccc;
-}
-
-.app-image {
+    border: 2px solid #6070ff65;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  #work-item:hover {
+    box-shadow: 0px 4px 8px rgba(48, 94, 124, 0.9);
+    border-color: #6070ff65;
+  }
+  
+  .app-image-container {
     width: 100%;
-}
-.techs {
+    height: 40vh;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .project-title {
+    width: 100%;
+     margin: auto;
+  }
+  
+  .app-image {
+    width: 95%;
+    height: 38vh;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+    transform: translateZ(0); /* Add this line */
+    box-sizing: border-box; 
+  }
+  
+  .app-image:hover {
+    width: 100%;
+    height: 40vh
+  }
+  
+  .app-details {
+    padding: 1rem;
+  }
+  
+  
+  .techs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+  }
+  
+  .techs span {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.25rem 0.3rem;
+    color: #000;
+    background-color: #6070ffb7;
+    border-radius: 10px;
+    border: 1px solid #6070ff65;
+    font-size: 0.9rem;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  .project-buttons {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 1rem;
-}
-.techs span {
-    margin-right: 1rem;
-}
+  }
+  .project-link {
+    display: inline-block;
+    background-color: #6070ff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .project-link:hover {
+    background-color: #0056b3;
+  }
+  
