@@ -1,0 +1,33 @@
+.works-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.works {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+}
+
+#work-item {
+
+    height: 65vh;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+}
+
+.app-image {
+    width: 100%;
+}
+.techs {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 1rem;
+}
+.techs span {
+    margin-right: 1rem;
+}

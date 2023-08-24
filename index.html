@@ -5,12 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portforio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="Improved.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="styles.css" />
+  
 </head>
 
 <body>
@@ -69,33 +71,34 @@
         </ul>
       </div>
     </section>
-    
-    <section id="works">
-      <h1 class="titlee"> Projects</h1>
+    <h1 class="titlee"> Projects </h1>
+  <section class="works-section">
+    <div class="works">
       <div id="work-item">
-        <img id="image" src="images/todo-appp.png" />
+        <div>
+        <img class="app-image" src="images/todo-appp.png" />
+      </div>
         <div>
           <h1>Todo app</h1>
-          <ul id="first-list">
-            <li><img src="images/Counter.png" /> 2022</li>
-          </ul>
+          <div class="techs">
+            <span>React</span>
+            <span>Redux</span>
+            <span>JavaScript</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+          </div>
           <p>
             This to-do list app is a digital tool that helps users organize tasks, set due dates, prioritize, and mark
             completed items to improve productivity.
           </p>
-          <ul id="languages">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>javaScript</li>
-          </ul>
-          <span class="see-more-action" id="project1">See Project</span>
+          <span>See Project</span>
         </div>
       </div>
-    </section>
 
+    </div>
+  </section>
 
-
-    <section id="about">
+    <div id="about">
       <div id="About-Myself">
         <div id="about-text">
           <h1 id="about-me">About Me</h1>
@@ -204,7 +207,7 @@
           my Resume</a>
       </div>
 
-    </section>
+    </div>
     <footer class="contact-form" id="contact">
       <div class="text-container">
         <h2 class="primary-text">Contact me</h2>

@@ -221,27 +221,7 @@ li {
   margin: 5px;
 }
 
-#work-item-one {
-  display: block;
-  min-height: 540px;
-  padding: 20px;
-  padding-right: 0;
-  background-color: rgb(241, 244, 253);
-  border-radius: 20px;
-  border: 10px solid rgba(49, 100, 167, 0.549);
-  /* padding-bottom: 40px; */
-  margin-bottom: 20px;
-}
 
-#work-item-one h1 {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172b4d;
-  margin: 1px 0 2px;
-}
 
 .contact-form .text-container p,
 .contact-form .text-container h2 {
@@ -255,41 +235,9 @@ li {
   font-size: 20px;
 }
 
-#work-item-one p {
-  height: 62px;
-  /* left: 24px; */
-  /* top: 276px; */
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0;
-  text-align: left;
-  display: flex;
-  margin-bottom: 50px;
-  position: static;
-}
 
-#work-item-one span {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 20px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  border: 1px solid #396df2;
-  border-radius: 16px;
-  color: #396df2;
-  padding: 10px;
-  width: fit-content;
-  display: block;
-  margin-top: 24px;
-  cursor: pointer;
-}
 
-#work-item-one img {
-  width: 90%;
-}
+
 #About-Myself span {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -303,19 +251,7 @@ li {
   padding: 12px;
 }
 
-#work-item-one span:hover {
-  background-color: #396df2;
-  color: white;
-  transition: 1s;
-}
 
-/* #work-item-one ul {
-  display: flex;
-  flex-direction: row;
-  padding-right: 20px;
-  font-family: "poppins", sans-serif;
-  font-weight: 500;
-} */
 
 #canopy {
   font-weight: 600;
