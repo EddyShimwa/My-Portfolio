@@ -48,7 +48,7 @@
     height: 38vh;
     border-radius: 5px;
     transition: 0.2s ease-in-out;
-    transform: translateZ(0); /* Add this line */
+    transform: translateZ(0); 
     box-sizing: border-box; 
   }
   
