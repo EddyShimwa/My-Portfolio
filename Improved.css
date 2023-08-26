@@ -30,7 +30,7 @@
     display: flex;
     background-color: #d4d7f03b;
     flex-direction: column;
-    border: 2px solid #6070ff65;
+    border: 6px solid #0e385afd;
     border-radius: 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease-in-out;
@@ -38,7 +38,7 @@
   
   #work-item:hover {
     box-shadow: 0px 4px 8px rgba(62, 60, 184, 0.9);
-    border-color: #6070ffc9;
+    border-color: #0e385afd;
   }
   
   .app-image-container {
