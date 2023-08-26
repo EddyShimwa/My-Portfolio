@@ -303,37 +303,7 @@ ul#languages li {
   transition: 2s;
 }
 
-th {
-  display: none;
-}
 
-/* Set the table rows to block display to stack them vertically */
-tr {
-  display: block;
-  margin-bottom: 10px;
-}
-
-/* Set cell borders and spacing for mobile */
-td {
-  border: 1px solid #5c768f;
-  display: block;
-  padding: 6px;
-}
-
-/* Add some space between table cells */
-td::before {
-  content: attr(data-label);
-  font-weight: bold;
-  display: block;
-  margin-bottom: 5px;
-}
-
-.Category {
-  color: rgb(14, 36, 45);
-  font-weight: 700;
-  display: flex;
-  justify-content: center;
-}
 
 .contact-form {
   min-height: 800px;
@@ -702,8 +672,8 @@ input:focus {
 
   #about {
     display: flex;
-    padding: 142px 182px 137px 142px;
-    gap: 25px;
+    padding: 10%;
+    gap: 10px;
   }
 
   #text1 {
@@ -719,16 +689,6 @@ input:focus {
     width: 100%;
     align-items: center;
     justify-content: space-between;
-  }
-
-  ul#languages li {
-    font-size: 15px;
-    font-weight: bold;
-  }
-  #picture {
-    width: 15%;
-    height: 30%;
-    border-radius: 70px;
   }
 
   .contact-form .text-container p,
@@ -781,58 +741,6 @@ input:focus {
     padding-left: 15px;
   }
 
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  th,
-  td {
-    border: 1px solid rgb(20, 20, 29);
-    padding: 8px;
-    text-align: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  th {
-    background-color: #ededed;
-  }
-
-  .fab {
-    color: #1d4292;
-  }
-
-  .fas {
-    color: #9e4343;
-  }
-
-  .fab.fa-html5 {
-    color: #e34c26;
-  }
-
-  .fab.fa-css3-alt {
-    color: #2965f1;
-  }
-
-  .fab.fa-github {
-    color: #333333;
-  }
-
-  .fab.fa-slack {
-    color: #4a154b;
-  }
-
-  .fab.fa-discord {
-    color: #7289da; /* Discord Blue */
-  }
-
-  .fas.fa-leaf {
-    color: rgb(139, 185, 70);
-  }
-
-  .fab.fa-js {
-    color: rgb(158, 145, 6);
-  }
   .Category {
     color: #061d44;
     font-weight: bold;

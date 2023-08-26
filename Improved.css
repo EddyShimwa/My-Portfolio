@@ -1,9 +1,20 @@
+#typing-animation {
+  width: 50%;
+}
+
+#my-image {
+  width: 20%;
+  height: 50%;
+  border: 2px solid #f2f3ff65;
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
 .works-section{
     margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 .works {
     width: 90%; 
@@ -19,7 +30,7 @@
     display: flex;
     background-color: #d4d7f03b;
     flex-direction: column;
-    border: 2px solid #6070ff65;
+    border: 6px solid #084e86fd;
     border-radius: 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease-in-out;
@@ -27,7 +38,7 @@
   
   #work-item:hover {
     box-shadow: 0px 4px 8px rgba(62, 60, 184, 0.9);
-    border-color: #6070ffc9;
+    border-color: #0e385afd;
   }
   
   .app-image-container {
@@ -41,6 +52,7 @@
   .project-title {
     width: 100%;
      margin: auto;
+     color: #091e42;
   }
   
   .app-image {
@@ -50,6 +62,7 @@
     transition: 0.2s ease-in-out;
     transform: translateZ(0); 
     box-sizing: border-box; 
+    border: 4px solid #9196a5dc;
   }
   
   .app-image:hover {
@@ -79,10 +92,11 @@
     font-size: 0.9rem;
   }
   
-  p {
+  .app-description {
     font-size: 0.9rem;
     line-height: 1.5;
     margin-bottom: 1rem;
+    text-align: justify;
   }
   
   .project-buttons {
@@ -104,3 +118,57 @@
     background-color: #0056b3;
   }
   
+  .skills {
+    border: 1px solid #6070ff65;
+    justify-content: center;
+  }
+  .skills-title {
+    margin-bottom: 0.3rem;
+    text-align: center;
+    color: #091e42;
+  }
+  .skill-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skill {
+    align-items: center;
+    border: 1px solid #6070ff65;
+    padding: 0.5rem;
+  }
+  .skill h3 {
+    margin: 0;
+    margin-left: 0.5rem;
+    color: #091e42;
+  }
+  .skill-span {
+    width: fit-content;
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid #6070ff65;
+    align-items: center;
+    margin: 0.2rem;
+  }
+  .skill-span img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.2rem;
+  }
+
+ .skill-items i {
+  padding: 0.2rem;
+  font-size: x-large
+}
+.skill-text {
+ padding: 0.3rem;
+}
+#About-Myself p {
+  width: 80%;
+  text-align: justify;
+}
+
+
+
+
+
+
