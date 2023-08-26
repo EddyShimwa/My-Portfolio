@@ -61,6 +61,7 @@
     transition: 0.2s ease-in-out;
     transform: translateZ(0); 
     box-sizing: border-box; 
+    border: 4px solid #9196a5dc;
   }
   
   .app-image:hover {
