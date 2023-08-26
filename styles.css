@@ -781,23 +781,6 @@ input:focus {
     padding-left: 15px;
   }
 
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  th,
-  td {
-    border: 1px solid rgb(20, 20, 29);
-    padding: 8px;
-    text-align: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  th {
-    background-color: #ededed;
-  }
-
   .Category {
     color: #061d44;
     font-weight: bold;
