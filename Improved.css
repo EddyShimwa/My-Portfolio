@@ -146,7 +146,11 @@
   font-size: x-large
 }
 .skill-text {
- margin-right: 0.3rem;
+ padding: 0.3rem;
+}
+#About-Myself p {
+  width: 80%;
+  text-align: justify;
 }
 
 
