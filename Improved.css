@@ -135,11 +135,22 @@
     align-items: center;
     margin: 0.2rem;
   }
+  .skill-span img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.2rem;
+  }
 
  .skill-items i {
   padding: 0.2rem;
   font-size: x-large
 }
+.skill-text {
+ margin-right: 0.3rem;
+}
+
+
+
 
 
 
