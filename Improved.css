@@ -128,16 +128,18 @@
     color: #091e42;
   }
   .skill-span {
+    width: fit-content;
     border-radius: 5px;
     display: flex;
     border: 1px solid #6070ff65;
     align-items: center;
     margin: 0.2rem;
   }
-  .skill-span-img {
-    width: 35%;
-    height: 70%;
-    margin-right: 2%;
-    margin-left: 5px;
-  }
+
+ .skill-items i {
+  padding: 0.2rem;
+  font-size: x-large
+}
+
+
 
