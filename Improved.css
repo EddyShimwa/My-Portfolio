@@ -30,7 +30,7 @@
     display: flex;
     background-color: #d4d7f03b;
     flex-direction: column;
-    border: 6px solid #0e385afd;
+    border: 6px solid #084e86fd;
     border-radius: 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease-in-out;
@@ -52,6 +52,7 @@
   .project-title {
     width: 100%;
      margin: auto;
+     color: #091e42;
   }
   
   .app-image {
