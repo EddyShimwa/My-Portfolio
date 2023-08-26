@@ -104,3 +104,38 @@
     background-color: #0056b3;
   }
   
+  .skills {
+    border: 1px solid #6070ff65;
+    justify-content: center;
+  }
+  .skills-title {
+    margin-bottom: 0.3rem;
+    text-align: center;
+  }
+  .skill-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skill {
+    align-items: center;
+    border: 1px solid #6070ff65;
+    padding: 0.5rem;
+  }
+  .skill h3 {
+    margin: 0;
+    margin-left: 0.5rem;
+  }
+  .skill-span {
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid #6070ff65;
+    align-items: center;
+    margin: 0.2rem;
+  }
+  .skill-span-img {
+    width: 35%;
+    height: 70%;
+    margin-right: 2%;
+    margin-left: 5px;
+  }
+
