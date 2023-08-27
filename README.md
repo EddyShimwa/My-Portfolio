@@ -9,6 +9,7 @@
 
 - HTML
 - CSS
+- TailWind CSS
 - JavaScript
 ## Link
 https://eddyshimwa.github.io/Portforio/
