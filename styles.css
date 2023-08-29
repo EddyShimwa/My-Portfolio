@@ -118,13 +118,11 @@ header nav a {
   font-size: larger;
 }
 
-/* Add necessary styles to hide the text initially */
 .greeting-message {
   opacity: 0;
   transform: translateX(-100%);
 }
 
-/* Define the animation for "I'm Eddy" and "Glad to see you" */
 @keyframes slideInFromLeft {
   0% {
     opacity: 0;
@@ -135,8 +133,6 @@ header nav a {
     transform: translateX(0);
   }
 }
-
-/* Define the animation for the exclamation mark */
 @keyframes fadeInExclamation {
   0% {
     opacity: 0;
@@ -146,7 +142,6 @@ header nav a {
   }
 }
 
-/* Apply the animation to the text */
 .greeting-message {
   animation-name: slideInFromLeft;
   animation-duration: 1s;
@@ -154,7 +149,6 @@ header nav a {
   animation-fill-mode: forwards;
 }
 
-/* Apply the animation to the exclamation mark */
 .exclamation {
   animation-name: fadeInExclamation;
   animation-duration: 1s;
@@ -163,7 +157,7 @@ header nav a {
 }
 
 #typing-animation::after {
-  content: "|"; /* Cursor that appears after the content */
+  content: "|"; 
   display: inline-block;
   animation: blink 0.7s infinite;
   color: #494949;
