@@ -22,17 +22,18 @@ body {
   #about {
     display: flex;
     flex-direction: column-reverse;
+    background-color: inherit;
   }
 
   #About-Myself p {
     width: 100% !important;
-    /* text-align: justify; */
   }
  
 }
  
  #typing-animation {
     width: 50%;
+    color: #bebebe;
   }
 
   #my-image {
@@ -46,7 +47,6 @@ body {
 
   .works-section {
     margin-top: 40px;
-    /* display: flex; */
     justify-content: center;
     align-items: center;
   }
@@ -63,17 +63,17 @@ body {
     width: 90%;
     padding: 2%;
     display: flex;
-    background-color: #d4d7f03b;
+    background-color: #2b2b2b;
     flex-direction: column;
-    border: 6px solid #084e86fd;
+    border: 1px solid #3b3b3b;
     border-radius: 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease-in-out;
   }
 
   #work-item:hover {
-    box-shadow: 0px 4px 8px rgba(62, 60, 184, 0.9);
-    border-color: #07265ffd;
+    box-shadow: 0px 4px 8px rgba(13, 13, 19, 0.902);
+    border: 1px solid #9b9b9b;
   }
 
   .app-image-container {
@@ -87,7 +87,7 @@ body {
   .project-title {
     width: 100%;
     margin: auto;
-    color: #091e42;
+    color: #d3a45d
   }
 
   .app-image {
@@ -97,7 +97,7 @@ body {
     transition: 0.2s ease-in-out;
     transform: translateZ(0);
     box-sizing: border-box;
-    border: 4px solid #9196a5dc;
+    border: 4px solid #0b0b0cdc;
   }
 
   .app-image:hover {
@@ -121,9 +121,8 @@ body {
     margin-bottom: 0.5rem;
     padding: 0.25rem 0.3rem;
     color: #ffffff;
-    background-color: #6070ffb7;
     border-radius: 10px;
-    border: 1px solid #6070ff65;
+    border: 1px solid #FBCF8B;
     font-size: 0.9rem;
   }
 
@@ -132,6 +131,7 @@ body {
     line-height: 1.5;
     margin-bottom: 1rem;
     text-align: justify;
+    color: #fff;
   }
 
   .project-buttons {
@@ -142,7 +142,7 @@ body {
 
   .project-link {
     display: inline-block;
-    background-color: #6070ff;
+    background-color: #aa6804;
     color: #fff;
     padding: 0.5rem 1rem;
     border-radius: 5px;
@@ -209,4 +209,5 @@ body {
   #About-Myself p {
     width: 80%;
     text-align: justify;
+    /* color: #3b3b3b; */
   }

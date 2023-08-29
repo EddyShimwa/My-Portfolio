@@ -4,7 +4,6 @@
 
 body {
   font-family: Poppins, sans-serif;
-  background-color: #e5e5e5;
   justify-items: center;
   margin: 0;
 }
@@ -167,6 +166,7 @@ header nav a {
   content: "|"; /* Cursor that appears after the content */
   display: inline-block;
   animation: blink 0.7s infinite;
+  color: #494949;
 }
 
 @keyframes blink {
@@ -182,7 +182,7 @@ header nav a {
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  color: #344563;
+  color: #ffffff;
 }
 
 .container h4 {
@@ -656,7 +656,7 @@ input:focus {
   }
 
   .titlee {
-    color: #091e42;
+    color: #FBCF8B;
     display: flex;
     justify-content: center;
     font-size: xx-large;
@@ -681,7 +681,7 @@ input:focus {
     align-items: center;
   }
   #About-Myself h1 {
-    color: #091e42;
+    color: #FBCF8B
   }
   .greeting {
     display: flex;
@@ -708,6 +708,17 @@ input:focus {
 
   #content h4 {
     margin-top: 20px;
+    color:#FBCF8B;
+  }
+
+
+  #content ul li a{
+    border:  1px solid #fbce8b96;
+    border-radius: 50px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
   }
 
   .contact-form {
