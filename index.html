@@ -13,22 +13,23 @@
     rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-          
+            
 </head>
 
 <body>
   <header>
     <nav>
-      <img class="hamburger" src="images/Union.svg" />
+      <i class="fa-solid fa-bars fa-2xl hamburger" style="color: #ffd84d;"></i>
       <div class="nav-list" data-background="dark">
-        <span data-section="works">Portfolio</span>
+        <span data-section="work-item">Projects</span>
         <span data-section="about"> About</span>
         <span data-section="contact">Contact</span>
         
       </div>
     </nav>
     <ul class="mobile-nav">
-      <span id="cross-icon"><img src="./images/cross-icon.png" alt="X" /></span>
+      <!-- <span id="cross-icon"><img src="./images/cross-icon.png" alt="X" /></span> -->
+      <i class="fa-solid fa-xmark" style="color: #f0d528;" id="cross-icon"></i>
       <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
       <li><a class="nav-link" href="#about">About</a></li>
       <li><a class="nav-link" href="#contact">Contact</a></li>
@@ -51,24 +52,23 @@
         <ul>
           <li>
             <a href="https://twitter.com/eddy56388406">
-              <img src="images/Vector.png" />
+              <i class="devicon-twitter-original colored"></i>
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/eddy-pray-shimwa/">
-              <img src="images/Linkedin icon.png" />
+              <i class="devicon-linkedin-plain colored"></i>
             </a>
           </li>
           <li>
             <a href="https://github.com/EddyShimwa">
-              <img src="images/Vector (1).png" />
+              
+            <i class="devicon-github-original"></i>
+          
             </a>
           </li>
           <li>
             <a href="https://medium.com/@shimwaprayeddy"> <img src="images/Vector (2).png" /> </a>
-          </li>
-          <li>
-            <a href="N/A"> <img src="images/Vector (3).png" /> </a>
           </li>
         </ul>
       </div>
@@ -195,6 +195,79 @@
       </div>
       <div id="work-item">
         <div class="app-image-container">
+          <img class="app-image" src="images/PocketPalIMG.png" alt="Todo App Screenshot" />
+        </div>
+        <div class="app-details">
+          <h1 class="project-title">PocketPal App</h1>
+          <div class="techs">
+            <span>Ruby on Rails</span>
+            <span>Erb</span>
+            <span>postgresql</span>
+            <span>CSS3</span>
+          </div>
+          <p class="app-description">
+            PocketPal is a mobile web app which allows users to track income, expenses, and savings, set financial goals, and monitor their progress towards those goals. Budget apps can also offer features such as bill reminders, categorization of expenses, and analysis of spending habits.
+          </p>
+
+          <div class="project-buttons">
+          <a href="https://pocket-pal-app.onrender.com/" class="project-link">Demo</a>
+          <a href="https://github.com/EddyShimwa/PocketPal" class="project-link">Source Code</a>
+          </div>
+        
+        </div>
+      </div>
+      <div id="work-item">
+        <div class="app-image-container">
+          <img class="app-image" src="images/rentAride.png" alt="Todo App Screenshot" />
+        </div>
+        <div class="app-details">
+          <h1 class="project-title">Rent-A-ride</h1>
+          <div class="techs">
+            <span>JavaScript</span>
+            <span>Jsx</span>
+            <span>React.js</span>
+            <span>Redux</span>
+            <span>Ruby on Rails</span>
+            <span>Apis</span>
+
+          </div>
+          <p class="app-description">
+            The Rent-A-Ride rental app that helps you Discover a wide range of vehicles for rent, from compact cars to luxury sedans, available at your convenience. With seamless booking, transparent pricing, and excellent customer service, Rent-A-Ride makes renting a car a breeze for your travel needs.
+          </p>
+
+          <div class="project-buttons">
+          <a href="https://github.com/EddyShimwa/Rent-A-Ride" class="project-link">Demo</a>
+          <a href="https://github.com/EddyShimwa/Rent-A-Ride" class="project-link">Source Code</a>
+          </div>
+  
+        </div>
+      </div>
+      <div id="work-item">
+        <div class="app-image-container">
+          <img class="app-image" src="images/explore.png" alt="Todo App Screenshot" />
+        </div>
+        <div class="app-details">
+          <h1 class="project-title">Explore America</h1>
+          <div class="techs">
+            <span>React.js</span>
+            <span>Redux</span>
+            <span>JavaScript</span>
+            <span>CSS3</span>
+            <span>Api</span>
+          </div>
+          <p class="app-description">
+            This is the mobile web-app that provides quick and easy access to country-specific information. Users can select a country and instantly view relevant details and statistics, such as its population, capital city, currency, and more.
+          </p>
+
+          <div class="project-buttons">
+          <a href="https://todo-app-c9sw.onrender.com/" class="project-link">Demo</a>
+          <a href="https://github.com/EddyShimwa/To-do-list" class="project-link">Source Code</a>
+          </div>
+        
+        </div>
+      </div>
+      <div id="work-item">
+        <div class="app-image-container">
           <img class="app-image" src="images/BookStore.png" alt="Todo App Screenshot" />
         </div>
         <div class="app-details">
@@ -217,7 +290,6 @@
         
         </div>
       </div>
-
     </div>
   </section>
   <h1 class="titlee"> About Me</h1>
@@ -426,9 +498,6 @@
         <small id="form-info"></small>
         <button type="submit" class="btn_submit">Get It Touch</button>
       </form>
-      <div class="back-to-top">
-    <a href="#intro">About Me</a>
-  </div>
     </footer>
     <script src="./js/app.js"></script>
 </body>
