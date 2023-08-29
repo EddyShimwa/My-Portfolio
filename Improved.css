@@ -123,8 +123,9 @@ body {
     padding: 0.25rem 0.3rem;
     color: #ffffff;
     border-radius: 10px;
-    border: 1px solid #FBCF8B;
+    border: 1px solid #fbce8b57;
     font-size: 0.9rem;
+    background-color: #d3a45d3f;
   }
 
   .app-description {
@@ -152,7 +153,7 @@ body {
   }
 
   .project-link:hover {
-    background-color: #0056b3;
+    background-color: #b38900;
   }
 
   .skills {
@@ -211,5 +212,4 @@ body {
   #About-Myself p {
     width: 80%;
     text-align: justify;
-    /* color: #3b3b3b; */
   }
