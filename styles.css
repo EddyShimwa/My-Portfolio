@@ -15,8 +15,7 @@ body {
   justify-content: center;
   padding: 114px 24px;
   border-radius: 0 0 0 50px;
-  background-size: contain;
-  background-image: url("images/header-mobile.svg");
+  background-color: #212121;
 }
 
 #logo {
@@ -116,7 +115,7 @@ header nav a {
 }
 
 #text1 h1 {
-  color: #091e42;
+  color: #FBCF8B;
   font-size: larger;
 }
 
@@ -571,7 +570,6 @@ input:focus {
 
   .container {
     width: -webkit-fill-available;
-    background-image: none;
     top: 0;
   }
   header {
@@ -650,9 +648,6 @@ input:focus {
   #intro {
     padding: 300px 260px;
     border-radius: 0 0 0 100px;
-    background-image: url("images/header.jpg");
-    background-size: cover;
-    background-position: center top -150px;
   }
 
   #content {
