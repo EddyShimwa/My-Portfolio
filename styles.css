@@ -26,6 +26,9 @@ body {
   font-size: 24px;
 }
 
+#my-image {
+  display: none;
+}
 a {
   text-decoration: none;
 }
@@ -81,8 +84,9 @@ a {
   top: 20px;
 }
 
-#works {
+.works {
   margin: 0 24px;
+  
 }
 
 .container {
