@@ -22,7 +22,8 @@ body {
   #about {
     display: flex;
     flex-direction: column-reverse;
-    background-color: inherit;
+    background-color: #212121;
+
   }
 
   #About-Myself p {
@@ -155,14 +156,14 @@ body {
   }
 
   .skills {
-    border: 1px solid #6070ff65;
+    /* border: 1px solid #6070ff65; */
     justify-content: center;
   }
 
   .skills-title {
     margin-bottom: 0.3rem;
     text-align: center;
-    color: #091e42;
+    color: #fcd98d;
   }
 
   .skill-items {
@@ -172,21 +173,22 @@ body {
 
   .skill {
     align-items: center;
-    border: 1px solid #6070ff65;
+    /* border: 1px solid #6070ff65; */
     padding: 0.5rem;
   }
 
   .skill h3 {
     margin: 0;
     margin-left: 0.5rem;
-    color: #091e42;
+    color: #D0AC76;
   }
 
   .skill-span {
+    color: rgb(255, 255, 255);
     width: fit-content;
     border-radius: 5px;
     display: flex;
-    border: 1px solid #6070ff65;
+    border: 1px solid #dab0091c;
     align-items: center;
     margin: 0.2rem;
   }

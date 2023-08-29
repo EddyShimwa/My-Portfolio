@@ -186,6 +186,8 @@ header nav a {
 }
 
 .container h4 {
+  display: flex;
+  flex-direction: column;
   height: 24px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -310,7 +312,6 @@ ul#languages li {
 
 .contact-form {
   min-height: 800px;
-  background-image: url(/images/contact-form-mobile.svg);
   padding: 130px 24px 20px 24px;
   display: flex;
   flex-direction: column;
@@ -351,6 +352,8 @@ input {
   font-weight: 500;
   border-radius: 8px;
   padding: 16px 15px;
+  background-color: #212121;
+  border: 1px solid rgba(241, 207, 94, 0.432);
 }
 
 input::placeholder {
@@ -359,6 +362,9 @@ input::placeholder {
 
 textarea {
   padding: 8px;
+  background-color: #212121;
+  border: 1px solid rgba(241, 207, 94, 0.432);
+  border-radius: 8px;
 }
 
 textarea:focus,
@@ -369,8 +375,8 @@ input:focus {
 .form-btn {
   width: fit-content;
   padding: 12px 16px;
-  color: #6070ff;
-  background: #fff;
+  color: #ffffff;
+  background: #ffd971;
   border: none;
   border-radius: 8px;
   font-weight: 700;
@@ -508,17 +514,16 @@ input:focus {
 }
 
 .btn_submit {
-  color: #6070ff;
+  color: #ffffff;
   font-size: 17px;
   line-height: 24px;
   padding: 12px 16px;
   border-radius: 8px;
   margin: 10px 0;
   align-self: flex-start;
-  border: 1px solid #fff;
   transition: all 0.2s ease-in-out;
+  background-color: rgba(226, 172, 24, 0.836)
 }
-
 .btn_submit:hover {
   color: #fff;
   font-size: 17px;
@@ -529,7 +534,7 @@ input:focus {
   align-self: flex-start;
   border: 1px solid #fff;
   transition: all 0.2s ease-in-out;
-  background-color: #6070ff;
+  background-color: rgba(226, 172, 24, 0.836)
 }
 
 .invalid {
@@ -673,6 +678,7 @@ input:focus {
     display: flex;
     padding: 10%;
     gap: 10px;
+    background-color: #212121
   }
 
   #text1 {
@@ -726,7 +732,7 @@ input:focus {
     border-radius: 100px 0 0 0;
     margin-top: -90px;
     background-size: contain;
-    background-image: url(/images/contact-form-bg.svg);
+    background-color: #212121;
     background-position-x: center;
   }
 
