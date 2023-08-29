@@ -48,8 +48,8 @@ a {
   z-index: 100;
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(10px);
-  background: rgba(33, 41, 114, 0.7);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: rgba(51, 41, 22, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(51, 41, 22, 0.37);
   height: 100%;
 }
 
@@ -80,11 +80,6 @@ a {
   position: absolute;
   right: 20px;
   top: 20px;
-}
-
-.works {
-  margin: 0 24px;
-  
 }
 
 .container {
@@ -664,13 +659,20 @@ input:focus {
     justify-content: center;
     font-size: xx-large;
   }
-  #works {
-    /* width: px; */
+  #works-section {
     display: flex;
     flex-direction: column;
     margin: 0 142px;
+    padding: 12%;
   }
 
+  .works {
+    width: 100%;
+    display: grid;
+    padding: 2%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
 
   #about {
     display: flex;

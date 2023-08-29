@@ -4,14 +4,20 @@ body {
 
 
 @media (max-width: 600px) {
+  .titlee {
+    color: #FBCF8B;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+  }
   .works {
-    width: 93% !important;
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
 
   nav {
-    background-color: #ffffff;
+    background-color: #212121;
   }
   
   p#typing-animation {
@@ -28,6 +34,20 @@ body {
 
   #About-Myself p {
     width: 100% !important;
+  }
+
+  #content ul li a{
+    border:  1px solid #fbce8b96;
+    border-radius: 50px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+  }
+
+  #content h4 {
+    margin-top: 20px;
+    color:#FBCF8B;
   }
  
 }
@@ -52,16 +72,8 @@ body {
     align-items: center;
   }
 
-  .works {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-
-  }
-
   #work-item {
-    width: 90%;
+    width: 100%;
     padding: 2%;
     display: flex;
     background-color: #2b2b2b;
@@ -70,6 +82,7 @@ body {
     border-radius: 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease-in-out;
+    margin-bottom: 1rem;
   }
 
   #work-item:hover {
