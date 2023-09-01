@@ -518,13 +518,13 @@ input:focus {
   border-radius: 8px;
   margin: 10px 0;
   align-self: flex-start;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff93;
   transition: all 0.2s ease-in-out;
   background-color: rgba(226, 172, 24, 0.836)
 }
 
 .invalid {
-  border: 1px solid #f00;
+  border: 1px solid rgba(255, 0, 0, 0.486);
 }
 
 .error {
