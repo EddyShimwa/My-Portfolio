@@ -1,5 +1,5 @@
 body {
-  background-color: #212121;
+  background-color: #000000;
 }
 
 
@@ -59,11 +59,10 @@ body {
 
   #my-image {
     width: 20%;
-    height: 50%;
-    border: 2px solid #f2f3ff65;
-    border-radius: 50%;
+    height: 30%;
+    border: 2px solid #f2f3ff07;
+    border-radius: 30%;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease-in-out;
   }
 
   .works-section {

@@ -25,7 +25,7 @@ body {
 }
 
 #my-image {
-  display: none;
+  /* display: none; */
 }
 a {
   text-decoration: none;
