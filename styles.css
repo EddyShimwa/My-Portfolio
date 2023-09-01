@@ -302,7 +302,7 @@ ul#languages li {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background-color: #6070ff;
+  background-color: #212121;
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: right;
@@ -312,7 +312,7 @@ ul#languages li {
 
 #about-text {
   display: flex;
-  color: #091e42;
+  color: #ffe573;
   font-size: larger;
   justify-content: center;
 }
@@ -548,12 +548,12 @@ input:focus {
 .resume-span {
   display: flex;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #ffe058;
   width: fit-content;
   margin-left: 0;
   padding: 10px;
   border-radius: 10px;
-  color: #eeeeee;
+  color: #000000;
   font-weight: bold;
 }
 
