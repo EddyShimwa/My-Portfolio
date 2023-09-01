@@ -24,9 +24,6 @@ body {
   font-size: 24px;
 }
 
-#my-image {
-  /* display: none; */
-}
 a {
   text-decoration: none;
 }
@@ -686,10 +683,10 @@ input:focus {
     height: auto;
     display: flex;
     align-items: center;
-    margin
   }
+
   #About-Myself h1 {
-    color: #FBCF8B
+    color: #FBCF8B;
   }
   .greeting {
     display: flex;
