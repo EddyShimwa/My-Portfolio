@@ -102,7 +102,7 @@ header nav a {
   top: 114px;
   font-family: "Poppins", sans-serif;
   font-size: 40px;
-  margin-bottom: 30px;
+  margin-bottom: -54px;
   line-height: 52px;
   letter-spacing: 0;
   text-align: left;
@@ -619,7 +619,8 @@ input:focus {
     color: #fff7ae;
     padding: 1%;
     z-index: 5;
-    background-color: #e3e6ff05;
+    position: fixed;
+    background-color: #0000005e;
     font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
@@ -644,7 +645,7 @@ input:focus {
   }
 
   #intro {
-    padding: 300px 260px;
+    padding: 130px 260px;
     border-radius: 0 0 0 100px;
   }
 
@@ -685,6 +686,7 @@ input:focus {
     height: auto;
     display: flex;
     align-items: center;
+    margin
   }
   #About-Myself h1 {
     color: #FBCF8B
