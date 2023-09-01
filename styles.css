@@ -24,9 +24,6 @@ body {
   font-size: 24px;
 }
 
-#my-image {
-  display: none;
-}
 a {
   text-decoration: none;
 }
@@ -102,7 +99,7 @@ header nav a {
   top: 114px;
   font-family: "Poppins", sans-serif;
   font-size: 40px;
-  margin-bottom: 30px;
+  margin-bottom: -54px;
   line-height: 52px;
   letter-spacing: 0;
   text-align: left;
@@ -305,7 +302,7 @@ ul#languages li {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background-color: #6070ff;
+  background-color: #212121;
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: right;
@@ -315,7 +312,7 @@ ul#languages li {
 
 #about-text {
   display: flex;
-  color: #091e42;
+  color: #ffe573;
   font-size: larger;
   justify-content: center;
 }
@@ -521,13 +518,13 @@ input:focus {
   border-radius: 8px;
   margin: 10px 0;
   align-self: flex-start;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff93;
   transition: all 0.2s ease-in-out;
   background-color: rgba(226, 172, 24, 0.836)
 }
 
 .invalid {
-  border: 1px solid #f00;
+  border: 1px solid rgba(255, 0, 0, 0.486);
 }
 
 .error {
@@ -551,12 +548,12 @@ input:focus {
 .resume-span {
   display: flex;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: #ffe058;
   width: fit-content;
   margin-left: 0;
   padding: 10px;
   border-radius: 10px;
-  color: #eeeeee;
+  color: #000000;
   font-weight: bold;
 }
 
@@ -619,7 +616,8 @@ input:focus {
     color: #fff7ae;
     padding: 1%;
     z-index: 5;
-    background-color: #e3e6ff05;
+    position: fixed;
+    background-color: #0000005e;
     font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
@@ -644,7 +642,7 @@ input:focus {
   }
 
   #intro {
-    padding: 300px 260px;
+    padding: 130px 260px;
     border-radius: 0 0 0 100px;
   }
 
@@ -686,8 +684,9 @@ input:focus {
     display: flex;
     align-items: center;
   }
+
   #About-Myself h1 {
-    color: #FBCF8B
+    color: #FBCF8B;
   }
   .greeting {
     display: flex;

@@ -1,5 +1,5 @@
 body {
-  background-color: #212121;
+  background-color: #181818;
 }
 
 
@@ -16,6 +16,9 @@ body {
     flex-direction: column;
   }
 
+  #my-image {
+    display: none;
+  }
   nav {
     background-color: #212121;
   }
@@ -49,6 +52,12 @@ body {
     margin-top: 20px;
     color:#FBCF8B;
   }
+
+  #text1 {
+
+    margin-bottom: -4px;
+
+  }
  
 }
  
@@ -58,12 +67,12 @@ body {
   }
 
   #my-image {
+    margin-top: 12%;
     width: 20%;
-    height: 50%;
-    border: 2px solid #f2f3ff65;
-    border-radius: 50%;
+    height: 30%;
+    border: 10px solid #bba767b0;
+    border-radius: 30%;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease-in-out;
   }
 
   .works-section {
