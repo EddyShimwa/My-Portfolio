@@ -500,15 +500,16 @@ input:focus {
 }
 
 .btn_submit {
-  color: #ffffff;
   font-size: 17px;
   line-height: 24px;
   padding: 12px 16px;
+  color: #fffacf;
   border-radius: 8px;
   margin: 10px 0;
   align-self: flex-start;
   transition: all 0.2s ease-in-out;
-  background-color: rgba(226, 172, 24, 0.836)
+  background-color: #212121;
+  border: 1px solid #ffffff93;
 }
 .btn_submit:hover {
   color: #fff;
@@ -520,7 +521,7 @@ input:focus {
   align-self: flex-start;
   border: 1px solid #ffffff93;
   transition: all 0.2s ease-in-out;
-  background-color: rgba(226, 172, 24, 0.836)
+  background-color: #212121;
 }
 
 .invalid {
