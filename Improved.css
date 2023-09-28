@@ -22,7 +22,9 @@ body {
   nav {
     background-color: #212121;
   }
-  
+  .fa-solid {
+    padding: 28px;
+  }
   p#typing-animation {
     width: 100%;
     text-align: justify;
