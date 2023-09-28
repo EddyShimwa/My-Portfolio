@@ -45,7 +45,7 @@ a {
   z-index: 100;
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(10px);
-  background: rgba(51, 41, 22, 0.37);
+  background: rgba(26, 20, 11, 0.726);
   box-shadow: 0 8px 32px 0 rgba(51, 41, 22, 0.37);
   height: 100%;
 }
