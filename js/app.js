@@ -47,11 +47,6 @@ typeWriter(textToType, 0);
 // function fetchOneProject(id) {
 //   let project = {};
 
-//   for (let i = 0; i < worksData.length; i += 1) {
-//     if (id === worksData[i].id) {
-//       project = worksData[i];
-//     }
-//   }
 
 
 
