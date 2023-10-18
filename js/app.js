@@ -79,25 +79,5 @@ typeWriter(textToType, 0);
 //     frames.appendChild(frame);
 //   });
 
-//   const imgPrev = document.createElement('div');
-//   imgPrev.classList.add('img-prev');
-//   const articleImg = document.createElement('img');
-//   articleImg.setAttribute('atl', project.title);
-//   articleImg.setAttribute('src', project.imageUrl);
-//   imgPrev.appendChild(articleImg);
-
-//   const articleBlock = document.createElement('div');
-//   articleBlock.classList.add('article-block');
-
-//   const leftBlock = document.createElement('div');
-//   leftBlock.classList.add('left-block');
-//   const articleDetails = document.createElement('p');
-//   articleDetails.classList.add('article-details');
-//   articleDetails.innerText = project.projectDetails;
-//   leftBlock.append(articleDetails);
-
-//   const br = document.createElement('hr');
-
-//   const rightBlock = document.createElement('div');
 
 
