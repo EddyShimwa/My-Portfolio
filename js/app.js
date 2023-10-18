@@ -43,63 +43,6 @@ function typeWriter(text, index) {
 typeWriter(textToType, 0);
 
 
-// const worksData = [
-//   {
-//     id: 'project1',
-//     title: 'Todo app',
-//     frame: ['To-do app', 'Front End Dev', 2022],
-//     tags: ['HTML', 'CSS', 'Javascript'],
-//     imageUrl: './images/todo-appp.png',
-//     projectDetails:
-//       "This to-do list app is a digital tool that helps users organize their tasks and manage their daily activities. The app typically allows users to create lists of tasks, set due dates and reminders, prioritize tasks, and mark completed items. Some apps also offer additional features such as note-taking, collaboration with others, and integration with calendars or other productivity tools. The goal of a to-do list app is to help users stay on track with their goals and improve their productivity.",
-//     liveLink: '#',
-//     sourceLink: '#',
-//   },
-//   {
-//     id: 'project2',
-//     title: 'Leaderboard App',
-//     frame: ['Leaderboard', 'Front end DEV', 2022],
-//     tags: ['HTML', 'CSS', 'Javascript'],
-//     imageUrl: './images/leaderb.PNG',
-//     projectDetails:
-//       "This JavaScript app is designed to display the scores and names of players in a user-friendly interface. It is a simple yet effective tool for tracking and recording game scores. Users can easily add their names and scores to the app, and the app will display the information in a clear and concise manner. This app is great for anyone who wants to keep track of their game scores, such as for board games or sports. Its simplicity makes it easy to use and understand, making it a great option for both beginners and experienced users.",
-//     liveLink: '#',
-//     sourceLink: '#',
-//   },
-//   {
-//     id: 'project3',
-//     title: 'Bookstore App',
-//     frame: ['Bookstore', 'Front End Dev', 2023],
-//     tags: ['React.js', 'CSS', 'Javascript'],
-//     imageUrl: '../images/BOOKSTOREe',
-//     projectDetails:
-//       "With this book-store app, users can enjoy a seamless and personalized reading experience. The app allows users to add books to their personal library with ease, set reading goals, and track their progress over time. Users can easily update their reading status, mark books as read, and receive recommendations based on their reading history and preferences. Additionally, the app may offer social features such as the ability to connect with friends, join book clubs, and share reading updates. Overall, this app is a must-have for book lovers who want to stay organized and motivated in their reading journey.",
-//     liveLink: '#',
-//     sourceLink: '#',
-//   },
-//   {
-//     id: 'project4',
-//     title: 'Explore-America',
-//     frame: ['Mobile', 'Front End DEV', 2023],
-//     tags: ['React.js', 'CSS'],
-//     imageUrl: './images/combined',
-//     projectDetails:
-//       "This is the mobile based app where a user can just click on country and view the details about that country!",
-//     liveLink: '#',
-//     sourceLink: '#',
-//   },
-//   {
-//     id: 'project5',
-//     title: 'PocketPal App',
-//     frame: ['Mobile', 'Full-Stack DEV', 2023],
-//     tags: ['Ruby, Rails, JavaScript', 'CSS'],
-//     imageUrl: 'combinedImg.png',
-//     projectDetails:
-//     "PocketPal is a web mobile app which allows users to track income, expenses, and savings, set financial goals, and monitor their progress towards those goals. Budget apps can also offer features such as bill reminders, categorization of expenses, and analysis of spending habits.",
-//     liveLink: 'pocket-pal-app.onrender.com/',
-//     sourceLink: 'https://github.com/EddyShimwa/PocketPal',
-//   },
-// ];
 
 // function fetchOneProject(id) {
 //   let project = {};
