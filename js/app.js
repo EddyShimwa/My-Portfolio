@@ -57,27 +57,6 @@ typeWriter(textToType, 0);
 //   const popupModal = document.createElement('article');
 //   popupModal.classList.add('article-popup');
 
-//   const articleModal = document.createElement('div');
-//   articleModal.classList.add('article-modal');
-//   const crossIcon = document.createElement('span');
-//   crossIcon.setAttribute('id', 'cross-article');
-//   crossIcon.innerHTML = '<img src="./images/cross-article.png" alt="X"/>';
-//   crossIcon.addEventListener('click', () => {
-//     popContainer.removeChild(popupModal);
-//   });
-
-//   const title = document.createElement('h2');
-//   title.classList.add('article-title');
-//   title.innerText = project.title;
-
-//   const frames = document.createElement('ul');
-//   frames.classList.add('frames');
-//   project.frame.forEach((tag) => {
-//     const frame = document.createElement('li');
-//     frame.classList.add('frame');
-//     frame.innerText = tag;
-//     frames.appendChild(frame);
-//   });
 
 
 
