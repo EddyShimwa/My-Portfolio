@@ -45,7 +45,6 @@ typeWriter(textToType, 0);
 
 
 // function fetchOneProject(id) {
-//   let project = {};
 
 
 
