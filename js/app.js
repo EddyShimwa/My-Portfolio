@@ -53,10 +53,5 @@ typeWriter(textToType, 0);
 //     }
 //   }
 
-//   const popContainer = document.querySelector('.container');
-//   const popupModal = document.createElement('article');
-//   popupModal.classList.add('article-popup');
-
-
 
 
