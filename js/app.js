@@ -99,49 +99,5 @@ typeWriter(textToType, 0);
 //   const br = document.createElement('hr');
 
 //   const rightBlock = document.createElement('div');
-//   rightBlock.classList.add('right-block');
-
-//   const articleTags = document.createElement('ul');
-//   articleTags.classList.add('article-tags');
-
-//   project.tags.forEach((tag) => {
-//     const taglist = document.createElement('li');
-//     taglist.classList.add('article-tag');
-//     taglist.innerText = tag;
-//     articleTags.append(taglist);
-//   });
-
-//   const actions = document.createElement('div');
-//   actions.classList.add('actions');
-
-//   const actBtn = document.createElement('a');
-//   actBtn.classList.add('act-btn');
-//   actBtn.setAttribute('href', project.liveLink);
-//   actBtn.innerHTML = "See Live <img src='./images/live-link.png' alt='live-link'>";
-//   actions.appendChild(actBtn);
-
-//   const actBtnSource = document.createElement('a');
-//   actBtnSource.classList.add('act-btn');
-//   actBtnSource.setAttribute('href', project.sourceLink);
-//   actBtnSource.innerHTML = "See Source <img src='./images/source-link.png' alt='source-link'>";
-//   actions.appendChild(actBtnSource);
-
-//   rightBlock.append(articleTags, br, actions);
-
-//   articleBlock.append(leftBlock, rightBlock);
-
-//   articleModal.append(crossIcon, title, frames, imgPrev, articleBlock);
-//   popupModal.append(articleModal);
-
-//   popContainer.append(popupModal);
-// }
-
-// const actionsBtn = document.querySelectorAll('.see-more-action');
-// actionsBtn.forEach((btn) => {
-//   btn.addEventListener('click', (e) => {
-//     const { id } = e.target;
-//     fetchOneProject(id);
-//   });
-// });
 
 
