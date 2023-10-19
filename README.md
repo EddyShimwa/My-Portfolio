@@ -1,9 +1,5 @@
 
 
-# Portforio
-
-> My portfolio page containing the proects I worked on and my skills
-
 ## Built With
 
 - HTML
