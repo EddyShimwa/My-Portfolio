@@ -1,6 +1,6 @@
 ## Built With
 
-- HTML
+- HTML5
 - CSS
 - TailWind CSS
 - JavaScript
