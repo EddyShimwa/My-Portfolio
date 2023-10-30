@@ -1,7 +1,7 @@
 ## Built With
 
 - HTML5
-- CSS
+- CSS3
 - TailWind CSS
 - JavaScript
 ## Link
