@@ -15,6 +15,4 @@ https://eddyshimwa.github.io/Portforio/
 - GitHub: [@EddyShimwa](https://github.com/EddyShimwa)
 - LinkedIn: [Pray Eddy SHIMWA](https://www.linkedin.com/in/eddy-pray-shimwa/)
 
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
+## 📝 Lice.
