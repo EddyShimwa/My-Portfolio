@@ -3,7 +3,7 @@
 - HTML5
 - CSS3
 - TailWind CSS
-- JavaScript
+- vanilla JavaScript
 ## Link
 https://eddyshimwa.github.io/Portforio/
 
