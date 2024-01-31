@@ -2,7 +2,7 @@
 
 - HTML5
 - CSS3
-- vanilla JavaScript
+-  JavaScript
 
 ## Link
 https://eddyshimwa.github.io/Portforio/
